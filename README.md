@@ -1,6 +1,7 @@
-<div align="center">
+<p align="center">
    <h1>Algorítmica
-   <p>Vivian Marino Sánchez
-   UPB - Facultad de Ingeniería y Arquitectura - EDTI
-   Ingeniería de Sistemas Computacionales
-</div>
+</p>
+
+ Vivian Marino Sánchez
+ UPB - Facultad de Ingeniería y Arquitectura - EDTI
+ Ingeniería de Sistemas Computacionales
