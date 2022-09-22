@@ -1,4 +1,4 @@
-<img width="50%" align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=michaelcurrin" />
+<div align="center">
 
 # Algoritmica
 
