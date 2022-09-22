@@ -1,1 +1,3 @@
-# Algoritmica
+<div align="center">
+  # Algoritmica
+ </div>
