@@ -1,3 +1,3 @@
 <div align="center">
-   <h1>Algoritmica<\h1>
+   <h1>Algoritmica
 </div>
