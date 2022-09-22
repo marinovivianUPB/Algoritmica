@@ -8,5 +8,7 @@
 
  <div align="right">
   
- ## Capítulo 1
+ ## Capítulo 1: Estructura de Datos
   ### Tema 1: Trie
+  ### Tema 2: Union Find
+  ### Tema 3: Segment Tree
