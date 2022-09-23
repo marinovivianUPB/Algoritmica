@@ -2,21 +2,24 @@
 #define input freopen("in.txt", "r", stdin)
 #define output freopen("out.txt", "w", stdout)
 using namespace std;
-int numberOfNodes = 0;
+
+/*Declaramos el nodo e indicamos que pertenece a trie.*/
 struct node
 {
     map<char, node*> mapero;
-    string company;
+    string caracter;
     bool isWord;                
 } *trie;
 
+/*Inicializamos el trie*/
 void init()
 {
     trie = new node();
     trie->isWord = false;
-    numberOfNodes++;
 }
 
+/*Tomamos el nodo inicial, que está vacío, y recorremos la palabra. Si el caracter 'i' no es un valor en el mapa del nodo, se añade. Entonces, 'currentNode' se convierte
+en el nodo del caracter 'i'. Cuando lleguemos al final de la palabra, marcaremos el nodo correspondiente como fin de palabra*/
 void insertWord(string word)
 {
     node *currentNode = trie;  
@@ -25,13 +28,15 @@ void insertWord(string word)
         if(currentNode->mapero.find(word[i]) == currentNode->mapero.end())
         {
             currentNode->mapero[word[i]] = new node();
-            numberOfNodes++;
         }
         currentNode = currentNode->mapero[word[i]];
     }
     currentNode->isWord=true;
 }
 
+/*Tomamos el nodo inicial, que está vacío, y recorremos la palabra. Si el caracter 'i' no es un valor en el mapa del nodo, retornamos falso.
+Entonces, 'currentNode' se convierte en el nodo del caracter 'i'. Cuando lleguemos al final de la palabra, retornaremos el valor 'isWord' del nodo 
+en que nos encontremos.*/
 bool search(string word)
 {
 	node *currentNode = trie;  
@@ -45,7 +50,7 @@ bool search(string word)
     }
     return currentNode->isWord=true;
 }
-
+/*Inicializmos el trie, ingresamos palabras y por último verificamos si existen o no dentro del Trie.*/
 int main() {
     init(); 
     string word = "alto";
@@ -54,7 +59,6 @@ int main() {
     insertWord(word);
     word = "automovil";   
     insertWord(word);
-    cout<<numberOfNodes++<<endl;
     search("auto")? cout << "Existe\n" :
 						cout << "No Existe\n";
     search("pluma")? cout << "Existe\n" :
