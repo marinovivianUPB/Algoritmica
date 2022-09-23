@@ -11,8 +11,14 @@
  #### Ejemplo
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Introduzcamos el conjunto de Strings C = [AHORCAR, AHOGAR, BOTAR]
   1. Introducimos 'AHORCAR' después de haber creado el nodo vacío. Introducimos cada caracter y marcamos el fin de palabra.
+  <div align="center">
   ![trie1](https://imgur.com/gopoyFK.png)
+   <div align="left">
   2. Ahora, introducimos 'AHOGAR'. Como ya existe el prefijo 'AHO' en el árbol, solamente creamos un nuevo nodo desde 'O' e introducimos 'GAR'. Igualmente, marcamos el fin de palabra.
+   <div align="center">
   ![trie2](https://imgur.com/G1fL3Ab.png)
-  3. Por último, ingresamos 'BOTAR'. Como no existen ninguno de los prefijos de 'BOTAR', creamos una nueva rama desde el nodo inicial.
-  ![trie3](https://imgur.com/93wwXS1)
+  <div align="left">
+    3. Por último, ingresamos 'BOTAR'. Como no existen ninguno de los prefijos de 'BOTAR', creamos una nueva rama desde el nodo inicial.
+    <div align="center">
+  ![trie3](https://imgur.com/93wwXS1.png)
+<div align="left">
