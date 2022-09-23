@@ -22,3 +22,7 @@
   ![trie3](https://imgur.com/93wwXS1.png)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y ya tenemos nuestro Trie.
+
+   ### Código
+  * Mapa
+  * Array
