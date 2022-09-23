@@ -9,7 +9,7 @@
  <div align="right">
   
  ## Capítulo 1: Estructura de Datos
-  ### Tema 1: Trie
+  ### Tema 1: [Trie] (https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie)
   ### Tema 2: Union Find
   ### Tema 3: Segment Tree
   ### Tema 4: BIT
