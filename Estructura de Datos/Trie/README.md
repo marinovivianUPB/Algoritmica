@@ -10,4 +10,4 @@
  
  #### Ejemplo
   
-  ![trie1]([http://url/to/img.png](https://imgur.com/rTFrmYO))
+  ![trie1](https://imgur.com/rTFrmYO.png)
