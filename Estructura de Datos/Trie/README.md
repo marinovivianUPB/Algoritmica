@@ -2,7 +2,7 @@
 
 # Trie  
 
- <div align="right">
+ <div align="left">
  
  ### Definición  
  Trie es una estructura de datos enfocada a la facilitación de la búsqueda de una secuencia de caracteres dentro de un conjunto de Strings o de caracteres dado. Con esto queremos decir que buscaremos un String A dentro de un conjunto de caracteres B, un conjunto de Strings C o un String S.  
