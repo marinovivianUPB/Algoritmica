@@ -24,5 +24,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y ya tenemos nuestro Trie.
 
    ### Código
-  * Mapa
-  * Array
+  * [Mapa](Estructura de Datos/Trie/trieMap.cpp)
+  * [Array](Estructura de Datos/Trie/trieArray.cpp)
