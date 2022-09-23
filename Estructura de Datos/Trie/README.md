@@ -24,5 +24,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Y ya tenemos nuestro Trie.
 
    ### Código
-  * [Mapa](github.com/marinovivianUPB/Algoritmica/Estructura de Datos/Trie/trieMap.cpp)
+  * [Mapa](Algoritmica/blob/master/Estructura de Datos/Trie/trieMap.cpp)
   * [Array](github.com/marinovivianUPB/Algoritmica/Estructura de Datos/Trie/trieArray.cpp)
