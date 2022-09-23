@@ -12,3 +12,4 @@
   ### Tema 1: Trie
   ### Tema 2: Union Find
   ### Tema 3: Segment Tree
+  ### Tema 4: BIT
