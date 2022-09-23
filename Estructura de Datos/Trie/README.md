@@ -17,7 +17,7 @@
 
   ![trie2](https://imgur.com/G1fL3Ab.png)
 
-    3. Por último, ingresamos 'BOTAR'. Como no existen ninguno de los prefijos de 'BOTAR', creamos una nueva rama desde el nodo inicial.
+  3. Por último, ingresamos 'BOTAR'. Como no existen ninguno de los prefijos de 'BOTAR', creamos una nueva rama desde el nodo inicial.
 
   ![trie3](https://imgur.com/93wwXS1.png)
 
