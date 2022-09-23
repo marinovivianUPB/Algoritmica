@@ -31,3 +31,4 @@
   * Palabra Compuesta
   * Sopa de Letras
   ### Modificaciones 
+  * Suffix Trie
