@@ -49,7 +49,14 @@ bool search(string word)
     return currentNode->isWord;
 }
 
+/*Crearemos un vector booleano*/
+
 vector<bool> existe(100);
+
+/*A continuación, utilizaremos dos punteros para recorrer cada sufijo de la palabra. El puntero 'i' marcará el inicio del sufijo y definirá el primer 'currentNode'
+en una secuencia, y 'j' recorrerá desde i+1 hasta el final de la palabra. Si el caracter 'j' no existe como hijo de 'currentNode', 'i' avanzará uno
+Caso contrario, 'currentNode' pasará a ser el nodo del caracter 'j' y almacenaremos el valor 'isWord' de ese nodo en específico en el vector booleano.
+Una vez que terminamos de recorrer la palabra, simplemente devolvemos el valor de 'existe' en la posición 'tamaño de la palabra -1'*/
 
 bool searchNu(string newWord){
     
