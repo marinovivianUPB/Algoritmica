@@ -25,4 +25,4 @@
 
    ### Código
   * [Mapa](Algoritmica/blob/master/Estructura de Datos/Trie/trieMap.cpp)
-  * [Array](github.com/marinovivianUPB/Algoritmica/Estructura de Datos/Trie/trieArray.cpp)
+  * [Array](https://github.com/marinovivianUPB/Algoritmica/blob/caec4a4a9857d6ca48046b6dbc583d9eb979755e/Estructura%20de%20Datos/Trie/trieArray.cpp)
