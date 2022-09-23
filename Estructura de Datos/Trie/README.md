@@ -10,4 +10,4 @@
  
  #### Ejemplo
   
-  ![trie1](https://imgur.com/rTFrmYO.png)
+  ![trie1](https://imgur.com/TPAvoML.png)
