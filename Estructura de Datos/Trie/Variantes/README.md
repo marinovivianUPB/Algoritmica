@@ -1,1 +1,1 @@
-# Suffix Trie
+# Variantes
