@@ -40,3 +40,8 @@
 ### Lista de Variantes  
 
   * Suffix Trie
+## Bibliografía 
+
+* Geeks for Geeks Staff. (2022). [Trie | (Insert and Search)](https://www.geeksforgeeks.org/trie-insert-and-search/). Geeks for Geeks.  
+* JavaTPoint Staff. (s. f.).[What is a Trie data structure?](https://www.javatpoint.com/trie-data-structure). Java T Point
+* Paul Landaeta. (2022). Github : Algoritmica 2. [Trie](https://github.com/PaulLandaeta/algoritmica2/tree/master/contenido/Estructura_de_datos/trie). Github : PaulLandaeta.
