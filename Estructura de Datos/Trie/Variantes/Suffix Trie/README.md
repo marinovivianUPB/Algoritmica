@@ -59,7 +59,7 @@ Primero, como dijimos en la definición, añadiremos un caracter especial. Enton
 7. Tomamos el prefijo abbcba$ e introduciremos todos sus sufijos: S=[abbcba$, bbcba$, bcba$, cba$, ba$, a$, $].  
   Aplicamos la primera regla con todos los sufijos, excepto con [$] con el cual aplicamos la segunda regla.
 
-![st7](https://imgur.com/xZkvCTR.png)
+![st7](https://imgur.com/Iz4lKwj.png)
 
    ### Código  
   * []()
