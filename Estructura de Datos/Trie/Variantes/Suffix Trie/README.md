@@ -23,9 +23,9 @@ Primero, como dijimos en la definición, añadiremos un caracter especial. Enton
   A continuación utilizaremos el algoritmo de Ukkonen:  
 1. Tomamos el prefijo $a$ e introduciremos todos sus sufijos: S=[a].  
 
-.. Aplicamos la segunda regla con [a].
+. Aplicamos la segunda regla con [a].
 
-  (st1)[https://imgur.com/yaLrvky]
+  [st1](https://imgur.com/yaLrvky)
 
 2. Tomamos el prefijo $ab$ e introduciremos todos sus sufijos: S=[ab, b].
 
