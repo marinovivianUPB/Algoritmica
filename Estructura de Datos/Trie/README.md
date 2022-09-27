@@ -30,5 +30,5 @@
   ### Problemas
   * Palabra Compuesta
   * Sopa de Letras
-  ### Modificaciones 
+  ### Variantes  
   * Suffix Trie
