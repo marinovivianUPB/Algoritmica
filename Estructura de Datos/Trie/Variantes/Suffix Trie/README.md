@@ -21,77 +21,47 @@ Ukkonen. Este algoritmo indica que construiremos un Suffix Trie para cada prefij
 Primero, como dijimos en la definición, añadiremos un caracter especial. Entonces, tenemos: A=abbcba$.  
   
   A continuación utilizaremos el algoritmo de Ukkonen:  
-1. Tomamos el prefijo $a$ e introduciremos todos sus sufijos: S=[a].  
+1. Tomamos el prefijo a e introduciremos todos sus sufijos: S=[a].  
   Aplicamos la segunda regla con [a].
 
   ![st1](https://imgur.com/yaLrvky.png)
 
-- Tomamos el prefijo $ab$ e introduciremos todos sus sufijos: S=[ab, b].
+2. Tomamos el prefijo ab e introduciremos todos sus sufijos: S=[ab, b].  
+  Aplicamos la primera regla con [ab].  
+  Aplicamos la segunda regla con [b].
 
-.. Aplicamos la primera regla con [ab].
-.. Aplicamos la segunda regla con [b].
+  ![st2](https://imgur.com/fXrmP4T.png)
 
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=0.4]{st2}
-\end{center}
-\end{figure}
+3. Tomamos el prefijo abb e introduciremos todos sus sufijos: S=[abb, bb, b].  
+  Aplicamos la primera regla con [abb, bb].  
+  Aplicamos la tercera regla con [b].
 
-\clearpage
+![st3](https://imgur.com/ne0lAgN.png)
 
-\item Tomamos el prefijo $abb$ e introduciremos todos sus sufijos: $S=[abb, bb, b]$.
+4. Tomamos el prefijo abbc e introduciremos todos sus sufijos: S=[abbc, bbc, bc, c].  
+  Aplicamos la primera regla con [abbc, bbc, bc].  
+  Aplicamos la segunda regla con [c].
 
-Aplicamos la primera regla con $abb$ y $bb$.\\
-Aplicamos la tercera regla con $b$.
+![st4](https://imgur.com/lwr8GQj.png)
+  
+5. Tomamos el prefijo abbcb e introduciremos todos sus sufijos: S=[abbcb, bbcb, bcb, cb, b].  
+  Aplicamos la primera regla con [abbcb, bbcb, bcb, cb].  
+  Aplicamos la tercera regla con [b].
 
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=0.3]{st3}
-\end{center}
-\end{figure}
+![st5](https://imgur.com/BM4slWg.png)
 
-\item Tomamos el prefijo $abbc$ e introduciremos todos sus sufijos: $S=[abbc, bbc, bc, c]$.
+6. Tomamos el prefijo abbcba e introduciremos todos sus sufijos: S=[abbcba, bbcba, bcba, cba, ba, a].
 
-Aplicamos la primera regla con $abbc$, $bbc$ y $bc$.\\
-Aplicamos la segunda regla con $c$.
+Aplicamos la primera regla con [abbcba, bbcba, bcba, cba, ba].
+Aplicamos la tercera regla con [a].
 
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=0.3]{st4}
-\end{center}
-\end{figure}
+![st6](https://imgur.com/LfCGEPZ.png)
 
-\item Tomamos el prefijo $abbcb$ e introduciremos todos sus sufijos: $S=[abbcb, bbcb, bcb, cb, b]$.
+7. Tomamos el prefijo abbcba$ e introduciremos todos sus sufijos: S=[abbcba$, bbcba$, bcba$, cba$, ba$, a$, $].
 
-Aplicamos la primera regla con $abbcb$, $bbcb$, $bcb$ y $cb$.\\
-Aplicamos la tercera regla con $b$.
+Aplicamos la primera regla con todos los sufijos, excepto con [$] con el cual aplicamos la segunda regla.
 
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=0.2]{st5}
-\end{center}
-\end{figure}
-
-\item Tomamos el prefijo $abbcba$ e introduciremos todos sus sufijos: $S=[abbcba, bbcba, bcba, cba, ba, a]$.
-
-Aplicamos la primera regla con $abbcba$, $bbcba$, $bcba$, $cba$ y $ba$.\\
-Aplicamos la tercera regla con $a$.
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=0.2]{st6}
-\end{center}
-\end{figure}
-
-\item Tomamos el prefijo $abbcba\$$ e introduciremos todos sus sufijos: $S=[abbcba\$, bbcba\$, bcba\$, cba\$, ba\$, a\$, \$]$.
-
-Aplicamos la primera regla con todos los sufijos, excepto con $\$$ con el cual aplicamos la segunda regla.\\
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=0.2]{st7}
-\end{center}
-\end{figure}
+![st7](https://imgur.com/xZkvCTR.png)
 
 \end{enumerate}
 
