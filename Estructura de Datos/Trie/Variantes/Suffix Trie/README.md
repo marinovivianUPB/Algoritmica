@@ -50,20 +50,16 @@ Primero, como dijimos en la definición, añadiremos un caracter especial. Enton
 
 ![st5](https://imgur.com/BM4slWg.png)
 
-6. Tomamos el prefijo abbcba e introduciremos todos sus sufijos: S=[abbcba, bbcba, bcba, cba, ba, a].
-
-Aplicamos la primera regla con [abbcba, bbcba, bcba, cba, ba].
-Aplicamos la tercera regla con [a].
+6. Tomamos el prefijo abbcba e introduciremos todos sus sufijos: S=[abbcba, bbcba, bcba, cba, ba, a].  
+  Aplicamos la primera regla con [abbcba, bbcba, bcba, cba, ba].  
+  Aplicamos la tercera regla con [a].
 
 ![st6](https://imgur.com/LfCGEPZ.png)
 
-7. Tomamos el prefijo abbcba$ e introduciremos todos sus sufijos: S=[abbcba$, bbcba$, bcba$, cba$, ba$, a$, $].
-
-Aplicamos la primera regla con todos los sufijos, excepto con [$] con el cual aplicamos la segunda regla.
+7. Tomamos el prefijo abbcba$ e introduciremos todos sus sufijos: S=[abbcba$, bbcba$, bcba$, cba$, ba$, a$, $].  
+  Aplicamos la primera regla con todos los sufijos, excepto con [$] con el cual aplicamos la segunda regla.
 
 ![st7](https://imgur.com/xZkvCTR.png)
-
-\end{enumerate}
 
    ### Código  
   * []()
