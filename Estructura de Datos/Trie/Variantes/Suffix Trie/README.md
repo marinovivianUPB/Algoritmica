@@ -6,8 +6,8 @@
  <div align="left">
  
  ### Definición  
-  Habiendo explicado Trie, la definición de un Suffix Trie no es difícil de entender. En este caso tomamos un String -o un conjunto de Strings- e incluimos en el Trie todos los posibles sufijos que podemos obtener. Esto quiere decir que tomaremos el String entero, lo posicionaremos, y luego tomaremos el String desde la posición $i$ hasta el caracter final en un bucle hasta que lleguemos al vacío. En este caso el vacío será representado por un caracter extra que añadiremos al String original. Esto siempre nos dará un árbol con $m$ hojas, donde $m$ es el número de caracteres que tiene el String más el caracter especial añadido.  
-  Para construir un Suffix Trie se utiliza el algoritmo de 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Habiendo explicado Trie, la definición de un Suffix Trie no es difícil de entender. En este caso tomamos un String -o un conjunto de Strings- e incluimos en el Trie todos los posibles sufijos que podemos obtener. Esto quiere decir que tomaremos el String entero, lo posicionaremos, y luego tomaremos el String desde la posición $i$ hasta el caracter final en un bucle hasta que lleguemos al vacío. En este caso el vacío será representado por un caracter extra que añadiremos al String original. Esto siempre nos dará un árbol con $m$ hojas, donde $m$ es el número de caracteres que tiene el String más el caracter especial añadido.  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para construir un Suffix Trie se utiliza el algoritmo de 
 Ukkonen. Este algoritmo indica que construiremos un Suffix Trie para cada prefijo del String. Para realizar cada sub Suffix Trie existen tres reglas:  
 
 * Si ya existe el principio del sufijo a introducir, revisamos las letras consecutivas y las comparamos con las del sufijo. Si faltan letras para formar el sufijo, simplemente se añaden los caracteres correspondientes.  
@@ -16,11 +16,11 @@ Ukkonen. Este algoritmo indica que construiremos un Suffix Trie para cada prefij
   
  #### Ejemplo  
   
-  Veamos un ejemplo con el String A=abbcba:  
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Veamos un ejemplo con el String A=abbcba:  
 
-Primero, como dijimos en la definición, añadiremos un caracter especial. Entonces, tenemos: A=abbcba$.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Primero, como dijimos en la definición, añadiremos un caracter especial. Entonces, tenemos: A=abbcba$.  
   
-  A continuación utilizaremos el algoritmo de Ukkonen:  
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A continuación utilizaremos el algoritmo de Ukkonen:  
 1. Tomamos el prefijo a e introduciremos todos sus sufijos: S=[a].  
   Aplicamos la segunda regla con [a].
 
