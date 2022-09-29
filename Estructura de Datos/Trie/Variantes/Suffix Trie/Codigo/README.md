@@ -4,7 +4,7 @@
 
  <div align="left">
  
- ### Explicación  
+### Explicación  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si implementamos el algoritmo de Ukkonen como lo explicamos, nos encontramos con el problema de que puede llegar a O(n^3). Esto quiere decir que el algoritmo es pesado y no es eficiente. Entonces, para hacer un programa que construya un Suffix Trie, hay que realizar ciertas modificaciones.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Todavía trabajaremos con los sufijos de los prefijos del String a insertar. También le añadiremos un caracter especial al final del String original. Sin embargo, esta vez las incersiones se realizarán de manera más directa, recordando los sufijos implícitos (que se encuentran como prefijos de ramas) y uniendo bifurcaciones de distintas ramas.  
 
@@ -21,7 +21,7 @@
 * Si una parte del sufijo a insertar existe después del caracter activo en la distancia activa del nodo activo, sumamos uno a la distancia activa por cada caracter ya presente. Si de pronto la distancia excede en número de caracteres dentro del nodo, saltamos al nodo interno que sigue.    
 * Si el sufijo a insertar ya existe por completo en una rama, pasamos a la siguiente fase sin restar el contador de sufijos a añadir.  
 
-    ### Ejemplo  
+### Ejemplo  
   1. Tomamos [a].  
   Contador de sufijos = 1  
   activo(root,'&nbsp;',0)  
