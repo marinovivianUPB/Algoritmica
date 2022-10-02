@@ -40,6 +40,7 @@
 ### Lista de Variantes  
 
   * Suffix Trie
+  * Método Delete
 ## Bibliografía 
 
 * Geeks for Geeks Staff. (2022). [Trie | (Insert and Search)](https://www.geeksforgeeks.org/trie-insert-and-search/). Geeks for Geeks.  
