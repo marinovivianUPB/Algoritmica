@@ -16,6 +16,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para encontrar el resultado de un intérvalo, tomaremos los índices inicial y final. Como cada nodo representa un intérvalo, buscaremos el resultado solamente en los nodos que se encuentren dentro del intérvalo que estamos buscando. Si el resultado que buscamos ya se encuentra en un nodo, devolveremos ese mismo nodo. Si necesitamos unir dos nodos, entonces realizaremos operaciones entre los atributos de estos nodos y devolveremos el nodo resultante.  
  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para actualizar el valor de uno de los números del conjunto dado, buscaremos el intérvalo en que se encuentra el nuevo valor y actualizaremos a todos los nodos por encima del nodo cuyo valor modificaremos. Este procedimiento es similar al de la introducción inicial de datos.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cabe remarcar que esta estructura de datos se utiliza con monoides. Decimos que un conjunto de números es un monoide si es que es un semigrupo y además tiene un elemento neutro. Entonces, un conjunto S que es un monoide cumple con las siguientes características: 
+    Para que sea un semigrupo:
+    * Para todo par de números (a,b) que pertenecen a S, el resultado de la operación 'o' entre ellos debe también pertenecer a S. Es decir, aob=c y 'c' pertenece a S. Esta es el la propiedad de operación interna.  
+    * Para toda operación 'o' que se realice con los números (a,b,c) que pertenecen a S, el orden de realización no debe afectar el resultado. Es decir, ao(boc) = (aob)oc. Esta es la propiedad asociativa.  
+    Para que sea un monoide:
+    * Un elemento 'e' debe pertenecer a S tal que la operación entre este elemento y cualquier otro número 'a' del conjunto, nos devuelva el elemento 'a'. Es decir, aoe=a.
  
  #### Ejemplo  
  
