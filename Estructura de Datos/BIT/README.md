@@ -30,5 +30,6 @@
   * Suffix Trie  
   
   ## Bibliografía  
-  
+  * Algorithms for Competitive Programming Staff. (2022). [Fenwick Tree](https://cp-algorithms.com/data_structures/fenwick.html). Competitive Programming Algorithms.  
+  * Geeks for Geeks Staff. (2022). [1’s and 2’s complement of a Binary Number](https://www.geeksforgeeks.org/1s-2s-complement-binary-number/). Geeks for Geeks.  
   * Tutorials Point Staff. (s. f.). [Discrete Mathematics - Group Theory](https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_group_theory.htm#:~:text=A%20monoid%20is%20a%20semigroup,Closure%2C%20Associative%2C%20Identity%20element.). Tutorials Point.  
