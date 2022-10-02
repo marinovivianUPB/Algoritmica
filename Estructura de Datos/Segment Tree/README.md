@@ -47,11 +47,16 @@
  ![st8](https://imgur.com/n9AWuNY.png)
  * Guardamos los valores correspondientes en los hijos del nodo 0. Entonces, almacenaremos los resultados de la operación entre los nodos 1 y 2, que en este caso es 25.  
  ![st9](https://imgur.com/6jqZLDg.png)
-   ### Código
-  * []()
+   ### Código  
+  * []()  
   
-  ### Problemas
-  * Palabra Compuesta
-  * Sopa de Letras
-  ### Modificaciones 
-  * Suffix Trie
+  ### Problemas  
+  * Palabra Compuesta  
+  * Sopa de Letras  
+  ### Modificaciones   
+  * Suffix Trie  
+  
+  ## Bibliografía  
+  * Sharma, A. (s. f.). [Segment Trees](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/). HackerEarth.
+  * Algorithms for Competitive Programming. (2022). [Segment Tree](https://cp-algorithms.com/data_structures/segment_tree.html). Competitive Programming Algorithms.
+  * 
