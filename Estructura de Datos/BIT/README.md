@@ -36,21 +36,16 @@
     * a <sub> 2,1,2</sub> = a <sub> 2,1,1</sub> + bms(a <sub> 2,1,1</sub>) = 1 + 1 = 10 = 2. Entonces nodo2 = nodo2 + A[1] = 1.  
     * a <sub> 2,1,3</sub> = a <sub> 2,1,2</sub> + bms(a <sub> 2,1,2</sub>) = 10 + 10 = 100 = 4. Entonces nodo4 = nodo4 + A[1] = 1.  
     * a <sub> 2,1,4</sub> = a <sub> 2,1,3</sub> + bms(a <sub> 2,1,3</sub>) = 100 + 100 = 1000 = 8. Entonces i = 2.  
-     
     * a <sub> 2,2,1</sub> = 2. Entonces nodo2 = nodo2+ A[2] = 4.  
     * a <sub> 2,2,2</sub> = a <sub> 2,2,1</sub> + bms(a <sub> 2,2,1</sub>) = 10 + 10 = 100 = 4. Entonces nodo4 = nodo4 + A[2] = 4.  
     * a <sub> 2,2,4</sub> = a <sub> 2,2,2</sub> + bms(a <sub> 2,2,2</sub>) = 100 + 100 = 1000 = 8. Entonces i = 3.  
-  
     * a <sub> 2,3,1</sub> = 3. Entonces nodo3 = nodo3+ A[3] = 5.  
     * a <sub> 2,3,2</sub> = a <sub> 2,3,1</sub> + bms(a <sub> 2,3,1</sub>) = 11 + 1 = 100 = 4. Entonces nodo4 = nodo4 + A[3] = 9.  
-  
     * a <sub> 2,4,1</sub> = 4. Entonces nodo4 = nodo4+ A[4] = 16.  
     * a <sub> 2,4,2</sub> = a <sub> 2,4,1</sub> + bms(a <sub> 2,4,1</sub>) = 100 + 100 = 1000 = 8. Entonces i = 5.  
-  
     * a <sub> 2,5,1</sub> = 5. Entonces nodo5 = nodo5+ A[5] = 9.  
     * a <sub> 2,5,2</sub> = a <sub> 2,5,1</sub> + bms(a <sub> 2,5,1</sub>) = 101 + 1 = 110 = 6. Entonces nodo6 = nodo6 + A[5] = 9.  
     * a <sub> 2,5,3</sub> = a <sub> 2,5,2</sub> + bms(a <sub> 2,5,2</sub>) = 110 + 10 = 1000 = 8. Entonces i = 6.  
-  
     * a <sub> 2,6,1</sub> = 6. Entonces nodo6 = nodo6+ A[6] = 20.  
     * a <sub> 2,6,2</sub> = a <sub> 2,6,1</sub> + bms(a <sub> 2,6,1</sub>) = 110 + 10 = 1000 = 8. Entonces i = 7.  
    ### Código  
