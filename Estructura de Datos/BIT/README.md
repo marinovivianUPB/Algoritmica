@@ -31,9 +31,7 @@
     * padre(6) = 110 - bms(110) = 100 = 4  
   2. Estructuremos el árbol y inicialicemos todo en 0.  
     * Recordemos que, en realidad, este árbol no existe. Solamente lo utilizamos para entender mejor cómo funciona la estructura BIT.
-    
     ![bit1](https://imgur.com/nfiDmm9.png)
-    
   3. Introduzcamos el valor de los padres, haciéndolo de la manera: a <sub> 2,i,n-1</sub> + bms(a <sub> 2,i,n-1</sub>) =  a <sub> 2,i,n</sub>. Donde i es la posición del conjunto que queremos posicionar, n es la n-ésima iteración del ciclo i y a <sub> 2,i,n</sub> es la posición en el BIT a la que sumaremos el valor A[i]. Si a <sub> 2,i,n</sub> excede el número de nodos del BIT, pasaremos al siguiente i. Si i excede el tamaño del conjunto A, entonces concluye el proceso de construcción.  
     * a <sub> 2,1,1</sub> = 1. Entonces nodo1 = nodo1+ A[1] = 1.  
     * a <sub> 2,1,2</sub> = a <sub> 2,1,1</sub> + bms(a <sub> 2,1,1</sub>) = 1 + 1 = 10 = 2. Entonces nodo2 = nodo2 + A[1] = 1.  
