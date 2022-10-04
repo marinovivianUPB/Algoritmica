@@ -23,14 +23,14 @@
  #### Ejemplo  
   Veamos un ejemplo con el conjunto A=[1,3,5,7,9,11].  
   1. Primero, encontremos a los padres de los nodos que corresponden a cada posición usando 1 como la posición inicial:  
-    * padre(1) = 1 - bms(1) = 0  
-    * padre(2) = 10 - bms(10) = 0  
-    * padre(3) = 11 - bms(11) = 10 = 2  
-    * padre(4) = 100 - bms(100) = 0  
-    * padre(5) = 101 - bms(101) = 100 = 4  
-    * padre(6) = 110 - bms(110) = 100 = 4  
+  * padre(1) = 1 - bms(1) = 0  
+  * padre(2) = 10 - bms(10) = 0  
+  * padre(3) = 11 - bms(11) = 10 = 2  
+  * padre(4) = 100 - bms(100) = 0  
+  * padre(5) = 101 - bms(101) = 100 = 4  
+  * padre(6) = 110 - bms(110) = 100 = 4  
   2. Estructuremos el árbol y inicialicemos todo en 0.  
-    * Recordemos que, en realidad, este árbol no existe. Solamente lo utilizamos para entender mejor cómo funciona la estructura BIT.
+  * Recordemos que, en realidad, este árbol no existe. Solamente lo utilizamos para entender mejor cómo funciona la estructura BIT.
     ![bit1](https://imgur.com/nfiDmm9.png)
   3. Introduzcamos el valor de los padres, haciéndolo de la manera: a <sub> 2,i,n-1</sub> + bms(a <sub> 2,i,n-1</sub>) =  a <sub> 2,i,n</sub>. Donde i es la posición del conjunto que queremos posicionar, n es la n-ésima iteración del ciclo i y a <sub> 2,i,n</sub> es la posición en el BIT a la que sumaremos el valor A[i]. Si a <sub> 2,i,n</sub> excede el número de nodos del BIT, pasaremos al siguiente i. Si i excede el tamaño del conjunto A, entonces concluye el proceso de construcción.  
     * a <sub> 2,1,1</sub> = 1. Entonces nodo1 = nodo1+ A[1] = 1.  
