@@ -15,9 +15,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cabe remarcar que la sintaxis para crear una relación entre nodos en Union Find es: [padre, hijo].
  #### Ejemplo
   
-  Tomemos como ejemplo el conjunto A=[0,1,2,3,4,5] y las operaciones [0,1], [1,3], [4,5], [3,4] y [2,3].
+  Tomemos como ejemplo el conjunto A=[0,1,2,3,4,5] y las operaciones [0,1], [1,3], [4,5], [3,4] y [2,3].  
   
-  Al inicializar el Union Find, todos los nodos son padres de sí mismos.
+  * Al inicializar el Union Find, todos los nodos son padres de sí mismos.  
 
    ### Código
   * []()
