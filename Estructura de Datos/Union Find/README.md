@@ -18,7 +18,20 @@
   Tomemos como ejemplo el conjunto A=[0,1,2,3,4,5] y las operaciones [0,1], [1,3], [4,5], [3,4] y [2,3].  
   
   * Al inicializar el Union Find, todos los nodos son padres de sí mismos.  
-
+  ![uf0](https://imgur.com/5hHlQ5q.png)
+  * [0,1]: Ahora 0 será padre de 1. El superpadre de 0 es 0 y el de 1 es 1. Ahora 0 es padre de 1.  
+  ![uf1](https://imgur.com/g2ZSmqN.png)
+  * [1,3]: Ahora 1 será padre de 3. El superpadre de 1 es 0 y el de 3 es 3. Ahora 0 es padre de 3.  
+  ![uf2](https://imgur.com/t6SHCOB.png)
+  * [4,5]: Ahora 4 será padre de 5. El superpadre de 4 es 4 y el de 5 es 5. Ahora 4 es padre de 5.  
+  ![uf3](https://imgur.com/UtihrlN.png)
+  * [3,4]: Ahora 3 será padre de 4. El superpadre de 3 es 0 y el de 4 es 4. Ahora 0 es padre de 4.  
+  * Actualizamos el padre de 5, que ahora es 0. 
+  ![uf4](https://imgur.com/90fYXHs.png)
+  * [2,3]: Ahora 2 será padre de 3. El superpadre de 2 es 2 y el de 3 es 0. Ahora 2 es padre de 0.  
+  * Actualizamos el padre de 1, 3, 4 y 5, que ahora es 2. 
+  ![uf5](https://imgur.com/6WmA5Cr.png)
+  
    ### Código
   * []()
   
