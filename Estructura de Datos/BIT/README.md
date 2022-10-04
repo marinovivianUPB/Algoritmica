@@ -30,24 +30,34 @@
     * padre(5) = 101 - bms(101) = 100 = 4  
     * padre(6) = 110 - bms(110) = 100 = 4  
   2. Estructuremos el árbol y inicialicemos todo en 0.  
-    * Recordemos que, en realidad, este árbol no existe. Solamente lo utilizamos para entender mejor cómo funciona la estructura BIT.  
+    * Recordemos que, en realidad, este árbol no existe. Solamente lo utilizamos para entender mejor cómo funciona la estructura BIT.
+    
+    ![bit1](https://imgur.com/nfiDmm9.png)
+    
   3. Introduzcamos el valor de los padres, haciéndolo de la manera: a <sub> 2,i,n-1</sub> + bms(a <sub> 2,i,n-1</sub>) =  a <sub> 2,i,n</sub>. Donde i es la posición del conjunto que queremos posicionar, n es la n-ésima iteración del ciclo i y a <sub> 2,i,n</sub> es la posición en el BIT a la que sumaremos el valor A[i]. Si a <sub> 2,i,n</sub> excede el número de nodos del BIT, pasaremos al siguiente i. Si i excede el tamaño del conjunto A, entonces concluye el proceso de construcción.  
     * a <sub> 2,1,1</sub> = 1. Entonces nodo1 = nodo1+ A[1] = 1.  
     * a <sub> 2,1,2</sub> = a <sub> 2,1,1</sub> + bms(a <sub> 2,1,1</sub>) = 1 + 1 = 10 = 2. Entonces nodo2 = nodo2 + A[1] = 1.  
     * a <sub> 2,1,3</sub> = a <sub> 2,1,2</sub> + bms(a <sub> 2,1,2</sub>) = 10 + 10 = 100 = 4. Entonces nodo4 = nodo4 + A[1] = 1.  
     * a <sub> 2,1,4</sub> = a <sub> 2,1,3</sub> + bms(a <sub> 2,1,3</sub>) = 100 + 100 = 1000 = 8. Entonces i = 2.  
+    ![bit2](https://imgur.com/eQKQf6I.png)
     * a <sub> 2,2,1</sub> = 2. Entonces nodo2 = nodo2+ A[2] = 4.  
     * a <sub> 2,2,2</sub> = a <sub> 2,2,1</sub> + bms(a <sub> 2,2,1</sub>) = 10 + 10 = 100 = 4. Entonces nodo4 = nodo4 + A[2] = 4.  
     * a <sub> 2,2,4</sub> = a <sub> 2,2,2</sub> + bms(a <sub> 2,2,2</sub>) = 100 + 100 = 1000 = 8. Entonces i = 3.  
+    ![bit3](https://imgur.com/3MErx46.png)
     * a <sub> 2,3,1</sub> = 3. Entonces nodo3 = nodo3+ A[3] = 5.  
     * a <sub> 2,3,2</sub> = a <sub> 2,3,1</sub> + bms(a <sub> 2,3,1</sub>) = 11 + 1 = 100 = 4. Entonces nodo4 = nodo4 + A[3] = 9.  
+    * a <sub> 2,3,3</sub> = a <sub> 2,3,2</sub> + bms(a <sub> 2,3,2</sub>) = 100 + 100 = 1000 = 8. Entonces i = 4.
+    ![bit4](https://imgur.com/4QpCxe0.png)
     * a <sub> 2,4,1</sub> = 4. Entonces nodo4 = nodo4+ A[4] = 16.  
     * a <sub> 2,4,2</sub> = a <sub> 2,4,1</sub> + bms(a <sub> 2,4,1</sub>) = 100 + 100 = 1000 = 8. Entonces i = 5.  
+    ![bit5](https://imgur.com/qFkxTRP.png)
     * a <sub> 2,5,1</sub> = 5. Entonces nodo5 = nodo5+ A[5] = 9.  
     * a <sub> 2,5,2</sub> = a <sub> 2,5,1</sub> + bms(a <sub> 2,5,1</sub>) = 101 + 1 = 110 = 6. Entonces nodo6 = nodo6 + A[5] = 9.  
     * a <sub> 2,5,3</sub> = a <sub> 2,5,2</sub> + bms(a <sub> 2,5,2</sub>) = 110 + 10 = 1000 = 8. Entonces i = 6.  
+    ![bit6](https://imgur.com/boPMBQf.png)
     * a <sub> 2,6,1</sub> = 6. Entonces nodo6 = nodo6+ A[6] = 20.  
     * a <sub> 2,6,2</sub> = a <sub> 2,6,1</sub> + bms(a <sub> 2,6,1</sub>) = 110 + 10 = 1000 = 8. Entonces i = 7.  
+    ![bit7](https://imgur.com/FgftY1G.png)
    ### Código  
   * []()  
   
