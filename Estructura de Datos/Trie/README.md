@@ -27,9 +27,9 @@
   * [Mapa](https://github.com/marinovivianUPB/Algoritmica/blob/1a45c7bb83e0090c5acc73a806b567b5588bdc51/Estructura%20de%20Datos/Trie/trieMap.cpp)
   * [Array](https://github.com/marinovivianUPB/Algoritmica/blob/caec4a4a9857d6ca48046b6dbc583d9eb979755e/Estructura%20de%20Datos/Trie/trieArray.cpp)
   
-  ### Problemas
-  * Palabra Compuesta
-  * Sopa de Letras
+  ### [Problemas](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/Trie/Problemas)
+  * [Palabra Compuesta](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/Trie/Problemas/buscarPalabraCompuesta)
+  * [Sopa de Letras](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/Trie/Problemas/sopaDeLetras)
   ## Variantes  
   Aquí algunas variantes de la estructura Trie anteriormente vista. Para que una estructura sea considera variante de Trie, debe: 
    * Estar conformada por nodos de tal manera que unos estén conectados con otros formando ramas.
