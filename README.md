@@ -11,8 +11,8 @@
  ## Capítulo 1: Estructura de Datos
   ### Tema 1: Trie
   [Definición](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie)  
-  [Código 1](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/trieArray.cpp)  
-  [Código 2](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/trieMap.cpp)  
+  [Código Array](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/trieArray.cpp)  
+  [Código Map](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/trieMap.cpp)  
   [Variantes](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/Variantes)  
   [Problemas](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/Problemas)  
   ### Tema 2: Union Find
