@@ -24,4 +24,5 @@
   * Good Morning!  
   
   ## Bibliografía
-  * Upadhyay, S. (2022). [What is Backtracking Algorithm? Types, Examples & its Application](https://www.simplilearn.com/tutorials/data-structure-tutorial/backtracking-algorithm). Simplilearn Solutions.
+  * Upadhyay, S. (2022). [What is Backtracking Algorithm? Types, Examples & its Application](https://www.simplilearn.com/tutorials/data-structure-tutorial/backtracking-algorithm). Simplilearn Solutions.  
+  * The Grainger College of Engineering. [2: Backtracking](https://courses.engr.illinois.edu/cs473/sp2020/notes/02-backtracking.pdf). The Grainger College of Engineering
