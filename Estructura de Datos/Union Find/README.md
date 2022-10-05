@@ -10,7 +10,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; En esta estructura, existen nodos padres y nodos hijos. Cada nodo existente tiene un y solo un padre de manera obligatoria y puede o no tener hijos. Varios nodos hijos pueden tener un mismo nodo padre. Un nodo puede ser su propio padre.  
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Las reglas anteriormente detalladas crean una jerarquía: el superpadre será el nodo que sea su propio padre. Para acortar el método de búsqueda de Union Find y la unión de un nodo con su nuevo padre, nos enfocaremos en el superpadre. Esto se logra haciendo que el nodo superpadre sea padre directo tanto de sus nodos hijos como de los hijos de sus hijos, etc. Esto se logra encontrando a los superpadres del futuro nodo padre y el futuro nodo hijo y creando una relación padre-hijo con los superpadres encontrado.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Las reglas anteriormente detalladas crean una jerarquía: el superpadre será el nodo que sea su propio padre. Para acortar el método de búsqueda de Union Find y la unión de un nodo con su nuevo padre, nos enfocaremos en el superpadre. Esto se logra haciendo que el nodo superpadre sea padre directo tanto de sus nodos hijos como de los hijos de sus hijos, etc. Esto se logra encontrando a los superpadres del futuro nodo padre y el futuro nodo hijo y creando una relación padre-hijo con los superpadres encontrados.
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cabe remarcar que la sintaxis para crear una relación entre nodos en Union Find es: [hijo, padre].
  #### Ejemplo
@@ -32,8 +32,13 @@
   * Actualizamos el padre de 1, 3, 4 y 5, que ahora es 2. 
   ![uf5](https://imgur.com/6WmA5Cr.png)
   
+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Este ejemplo trabaja sin el Union Rank, que es una modificación útil que tomaremos como predeterminada en este repositorio. A Union Find simplemente le añadiremos la característica de rango, donde el rango de un nodo depende de qué nivel de profundidad alcanzan sus hijos. Un nodo cuyos hijos tienen hijos tendrá un rango 2 y un nodo cuyos hijos no tienen hijos tendrá un rango 1, por ejemplo.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aplicando el rango al ejemplo anteriormente visto, solamente cambiará 
+  
    ### Código
-  * [Union Find]()
+  * [Union Find](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/Union%20Find/unionFind.cpp)
   
   ### [Problemas](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/Union%20Find/Problemas)
   * [Union Find](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/Union%20Find/Problemas/Union%20Find/unionFind.cpp)  
