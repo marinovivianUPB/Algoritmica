@@ -64,8 +64,7 @@ Ukkonen. Este algoritmo indica que construiremos un Suffix Trie para cada prefij
    ### Código  
   * [Implementacion](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/Variantes/Suffix%20Trie/Codigo)  
   * [Java]()
-  
-  ### Problemas  
+
   
   ## Bibliografía  
   * Enjoy Computer Science Staff. (s. f.).[Suffix Tree Data Structure](https://www.enjoyalgorithms.com/blog/suffix-tree-data-structure). Code Algorithms Pvt. Ltd. : Enjoy Computer Science.  
