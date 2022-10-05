@@ -18,11 +18,7 @@
  ![ej1](https://imgur.com/Im2mTeU.png) 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mientras que, aplicando Backtracking, podemos eliminar las ramas en que el número de caminos utilizados exceda N, de manera que solamente exploremos los caminos que todavía tienen posibilidad de darnos la respuesta correcta.
  ![ej2](https://imgur.com/l0MmIrG.png)
- 
 
-   ### Código
-  * []()
-  
   ### Problemas
   * Geppetto  
   * Good Morning!  
