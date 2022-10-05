@@ -1,6 +1,6 @@
 <div align="center">  
 
-# Trie: Problemas  
+# Problemas  
 
  <div align="left">  
   
