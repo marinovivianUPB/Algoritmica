@@ -91,5 +91,10 @@
   nuevo activo(root, '$', 0)  
   Añadimos [$] como un nuevo nodo. 
   
-  ![i7](https://imgur.com/XKYj9Sa.png)
+  ![i7](https://imgur.com/XKYj9Sa.png)  
+  
+  ## Bibliografía
+  
+  Tushar Roy- Coding Made Simple. (2015). [Suffix Tree using Ukkonen's algorithm](https://www.youtube.com/watch?v=aPRqocoBsFQ). YouTube.  
+  StackOverflow User. (2019). [Ukkonen's suffix tree algorithm in plain English](https://stackoverflow.com/questions/9452701/ukkonens-suffix-tree-algorithm-in-plain-english). Stack Exchange, Inc.: StackOverflow.   
   
