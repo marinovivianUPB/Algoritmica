@@ -24,4 +24,6 @@
 
  <div align="left">  
  
-  ## Capítulo 2: Backtracking
+  ## Capítulo 2: Backtracking  
+   [Definición]()
+   [Problemas]()
