@@ -62,7 +62,8 @@ Ukkonen. Este algoritmo indica que construiremos un Suffix Trie para cada prefij
 ![st7](https://imgur.com/Iz4lKwj.png)
 
    ### Código  
-  * []()
+  * [Implementacion](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/Variantes/Suffix%20Trie/Codigo)  
+  * [Java]()
   
   ### Problemas  
   
