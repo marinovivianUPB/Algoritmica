@@ -98,7 +98,8 @@
   * [C++](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/Variantes/Suffix%20Trie/Codigo/suffixTree.cpp)  
   
   ## Bibliografía
-  
-  Tushar Roy- Coding Made Simple. (2015). [Suffix Tree using Ukkonen's algorithm](https://www.youtube.com/watch?v=aPRqocoBsFQ). YouTube.  
-  StackOverflow User. (2019). [Ukkonen's suffix tree algorithm in plain English](https://stackoverflow.com/questions/9452701/ukkonens-suffix-tree-algorithm-in-plain-english). Stack Exchange, Inc.: StackOverflow.   
+  * Kalkicode Staff. (2021). [suffix tree implementation in c++](https://kalkicode.com/suffix-tree-implementation-in-cpp). Kalkicode.
+  * Bhojasia, M. (s. f.). [C++ Program to Implement Suffix Tree](https://www.sanfoundry.com/cpp-program-implement-suffix-tree/). Sanfoundry.
+  * Tushar Roy- Coding Made Simple. (2015). [Suffix Tree using Ukkonen's algorithm](https://www.youtube.com/watch?v=aPRqocoBsFQ). YouTube.  
+  * StackOverflow User. (2019). [Ukkonen's suffix tree algorithm in plain English](https://stackoverflow.com/questions/9452701/ukkonens-suffix-tree-algorithm-in-plain-english). Stack Exchange, Inc.: StackOverflow.   
   
