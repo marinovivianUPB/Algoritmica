@@ -33,9 +33,12 @@
   ![uf5](https://imgur.com/6WmA5Cr.png)
   
   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Este ejemplo trabaja sin el Union Rank, que es una modificación útil que tomaremos como predeterminada en este repositorio. A Union Find simplemente le añadiremos la característica de rango, donde el rango de un nodo depende de qué nivel de profundidad alcanzan sus hijos. Un nodo cuyos hijos tienen hijos tendrá un rango 2 y un nodo cuyos hijos no tienen hijos tendrá un rango 1, por ejemplo.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Este ejemplo trabaja sin el Union Rank, que es una modificación útil que tomaremos como predeterminada en este repositorio. A Union Find simplemente le añadiremos la característica de rango, donde el rango de un nodo depende de qué nivel de profundidad alcanzan sus hijos. Un nodo cuyos hijos tienen hijos tendrá un rango 2 y un nodo cuyos hijos no tienen hijos tendrá un rango 1, por ejemplo. Al momento de realizar una operación [hijo, padre], veremos si el superpadre del hijo tiene un rango mayor que el superpadre de padre. Si este es el caso, la operación se hará a la inversa, es decir superpadre padre será hijo del nodo superpadre hijo y no a la inversa. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aplicando el rango al ejemplo anteriormente visto, solamente cambiará 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aplicando el rango al ejemplo anteriormente visto, solamente cambiaremos el ejemplo para la operación [3,2].  
+  * [3,2]: Ahora 2 será padre de 3. El superpadre de 2 es 2 y el de 3 es 0. El rango de 2 es 0 y el de 0 es 1. Por lo tanto, ahora 0 es padre de 2.  
+  * Actualizamos el padre 2 que ahora es 0. 
+  ![alt](https://imgur.com/RKuZlmy.png)
   
    ### Código
   * [Union Find](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/Union%20Find/unionFind.cpp)
