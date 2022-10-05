@@ -21,3 +21,7 @@
   ### Tema 4: BIT
   [Definición](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/BIT)  
   [Problemas](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/BIT/Problemas)  
+
+ <div align="left">  
+ 
+  ## Capítulo 2: Backtracking
