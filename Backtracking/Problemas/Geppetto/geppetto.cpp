@@ -1,6 +1,6 @@
 #include <bits/stdc++.h> 
 #include <string>
-#define input freopen("geppetto.in.7", "r", stdin)
+#define input freopen("in.txt", "r", stdin)
 #define output freopen("out.txt", "w", stdout)
 using namespace std;
 
