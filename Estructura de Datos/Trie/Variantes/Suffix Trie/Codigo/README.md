@@ -93,6 +93,10 @@
   
   ![i7](https://imgur.com/XKYj9Sa.png)  
   
+  ### Código
+  * [Java](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/Variantes/Suffix%20Trie/Codigo/SuffixTree.java)  
+  * [C++](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%20de%20Datos/Trie/Variantes/Suffix%20Trie/Codigo/suffixTree.cpp)  
+  
   ## Bibliografía
   
   Tushar Roy- Coding Made Simple. (2015). [Suffix Tree using Ukkonen's algorithm](https://www.youtube.com/watch?v=aPRqocoBsFQ). YouTube.  
