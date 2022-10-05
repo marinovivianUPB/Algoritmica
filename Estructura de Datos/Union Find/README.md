@@ -35,8 +35,7 @@
    ### Código
   * []()
   
-  ### Problemas
-  * Palabra Compuesta
-  * Sopa de Letras
+  ### [Problemas](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/Union%20Find/Problemas)
+  * [Union Find](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/Union%20Find/Problemas/Union%20Find/unionFind.cpp)  
   ### Modificaciones 
   * Suffix Trie
