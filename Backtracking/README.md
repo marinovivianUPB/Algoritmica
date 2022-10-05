@@ -22,3 +22,6 @@
   ### Problemas
   * Geppetto  
   * Good Morning!  
+  
+  ## Bibliografía
+  * Upadhyay, S. (2022). [What is Backtracking Algorithm? Types, Examples & its Application](https://www.simplilearn.com/tutorials/data-structure-tutorial/backtracking-algorithm). Simplilearn Solutions.
