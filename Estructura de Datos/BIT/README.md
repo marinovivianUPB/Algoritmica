@@ -57,7 +57,7 @@
   * a <sub> 2,6,2</sub> = a <sub> 2,6,1</sub> + bms(a <sub> 2,6,1</sub>) = 110 + 10 = 1000 = 8. Entonces i = 7.  
     ![bit7](https://imgur.com/FgftY1G.png)
    ### Código  
-  * []()  
+  * [Bit](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/BIT/bit.cpp)  
   
   ### Problemas  
   * Palabra Compuesta  
