@@ -10,3 +10,8 @@
  
 ### Código
 [Array](https://github.com/marinovivianUPB/Algoritmica/edit/main/Estructura%20de%20Datos/Trie/Variantes/Metodo%20Delete/metodoDeleteArray.cpp)
+
+  ## Bibliografía
+  * Mallik, S. (2022). [Delete nodes from trie](https://www.codingninjas.com/codestudio/library/delete-nodes-from-trie). Coding Ninjas: CodeStudio.
+  * More, N. (s. f.). [Trie Data Structure | Delete](https://www.ideserve.co.in/learn/trie-delete). IDeserve.
+  * TutorialsPoint.dev Staff. [Trie | (Delete)](https://tutorialspoint.dev/data-structure/advanced-data-structures/trie-delete). TutorialsPoint.dev.
