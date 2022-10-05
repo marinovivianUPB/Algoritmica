@@ -59,11 +59,8 @@
    ### Código  
   * [Bit](https://github.com/marinovivianUPB/Algoritmica/blob/main/Estructura%20de%20Datos/BIT/bit.cpp)  
   
-  ### Problemas  
-  * Palabra Compuesta  
-  * Sopa de Letras  
-  ### Modificaciones   
-  * Suffix Trie  
+  ### [Problemas](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%de%Datos/BIT/Problemas)  
+  * [Turbo](https://github.com/marinovivianUPB/Algoritmica/tree/main/Estructura%de%Datos/BIT/Problemas/Turbo/turbo.cpp)  
   
   ## Bibliografía  
   * Algorithms for Competitive Programming Staff. (2022). [Fenwick Tree](https://cp-algorithms.com/data_structures/fenwick.html). Competitive Programming Algorithms.  
