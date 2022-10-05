@@ -39,8 +39,8 @@
    
 ### Lista de Variantes  
 
-  * Suffix Trie
-  * Método Delete
+  * [Suffix Trie](https://github.com/marinovivianUPB/Algoritmica/edit/main/Estructura%20de%20Datos/Trie/Variantes/Suffix%20Trie)
+  * [Método Delete](https://github.com/marinovivianUPB/Algoritmica/edit/main/Estructura%20de%20Datos/Trie/Variantes/Metodo%20Delete/metodoDeleteArray.cpp)
 ## Bibliografía 
 
 * Geeks for Geeks Staff. (2022). [Trie | (Insert and Search)](https://www.geeksforgeeks.org/trie-insert-and-search/). Geeks for Geeks.  
