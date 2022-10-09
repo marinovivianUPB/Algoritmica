@@ -21,7 +21,7 @@
 
   ### Problemas
   * [Geppetto](https://github.com/marinovivianUPB/Algoritmica/blob/main/Backtracking/Problemas/Geppetto/geppetto.cpp)  
-  * []()  
+  * [Good Morning](https://github.com/marinovivianUPB/Algoritmica/blob/main/Backtracking/Problemas/Good%20Morning/goodMorning.cpp)  
   
   ## Bibliografía
   * Upadhyay, S. (2022). [What is Backtracking Algorithm? Types, Examples & its Application](https://www.simplilearn.com/tutorials/data-structure-tutorial/backtracking-algorithm). Simplilearn Solutions.  
