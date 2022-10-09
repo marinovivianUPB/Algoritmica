@@ -33,3 +33,7 @@
   ## Capítulo 2: Backtracking  
    [Definición](https://github.com/marinovivianUPB/Algoritmica/tree/main/Backtracking)  
    [Problemas](https://github.com/marinovivianUPB/Algoritmica/tree/main/Backtracking/Problemas)
+
+ <div align="right">  
+ 
+  ## Capítulo 3: Dynamic Programming 
