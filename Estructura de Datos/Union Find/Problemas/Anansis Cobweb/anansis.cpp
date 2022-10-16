@@ -1,75 +1,94 @@
-#include <cstdio>
-#include <cstring>
-
+#include <bits/stdc++.h> 
+#define input freopen("in.txt", "r", stdin)
+#define output freopen("out.txt", "w", stdout)
 using namespace std;
+#define MAX 100000
 
-#define MAX_V 100000
+int v[10000];
+int parent[10000];
+int cont[10000];
+int rango[10000];
 
-int N,M,num_comp;
-int parent[MAX_V],rank[MAX_V];
+int Primero[MAX],Segundo[MAX];
+int Q,numHilo[MAX],ans[MAX];
+int N, M;
+bool anadirHilo[MAX];
 
-void init(){
-    for(int i = 0;i<N;++i){
+void init() {
+    for(int i=0;  i<= N; i++) {
         parent[i] = i;
-        rank[i] = 0;
-    }
-    
-    num_comp = N;
-}
-
-int Find(int v){
-    if(parent[v]==v) return v;
-    parent[v] = Find(parent[v]);
-    return parent[v];
-}
-
-void Union(int u, int v){
-    int PU = Find(u), PV = Find(v);
-    if(PU==PV) return;
-    --num_comp;
-    
-    if(rank[PU]<rank[PV]) parent[PU] = PV;
-    else{
-        parent[PV] = PU;
-        if(rank[PU]==rank[PV]) ++rank[PU];
+        rango[i] = 0;
+        cont[i] = 1;
     }
 }
 
-#define MAX_E 100000
+int find(int x) {
+    if(x == parent[x]) {
+        return x;
+    }
+    else {
+        parent[x] = find(parent[x]);
+        
+        return parent[x];
+    }
+}
 
-int Eu[MAX_E],Ev[MAX_E];
-int Q,ind[MAX_E],ans[MAX_E];
-bool add[MAX_E];
+void unionRango(int x,int y) { 
+    int xRaiz = find(x);
+    int yRaiz = find(y);
+    if(rango[xRaiz] > rango[yRaiz]) {
+        parent[yRaiz] = xRaiz;
+        cont[yRaiz] += cont[xRaiz];
+
+    } else {
+        parent[xRaiz] = yRaiz;
+        cont[xRaiz] += cont[yRaiz];
+        if(rango[xRaiz] == rango[yRaiz]) {
+            rango[yRaiz]++;
+        }
+    }
+}
 
 int main(){
-    scanf("%d %d",&N,&M);
+    input;
+   cin>>N>>M;
     
-    for(int i = 0;i<M;++i)
-        scanf("%d %d",&Eu[i],&Ev[i]);
+    for(int i = 0;i<M;++i){
+        cin>>Primero[i]>>Segundo[i];
+    }
     
-    scanf("%d",&Q);
-    memset(add,true,sizeof(add));
+    cin>>Q;
+    memset(anadirHilo,true,sizeof(anadirHilo));
     
     for(int i = 0;i<Q;++i){
-        scanf("%d",&ind[i]);
-        add[--ind[i]] = false;
+        cin>>numHilo[i];
+        anadirHilo[--numHilo[i]] = false;
     }
     
     init();
     
     for(int i = 0;i<M;++i){
-        if(!add[i]) continue;
-        Union(Eu[i],Ev[i]);
+        if(anadirHilo[i]){
+            unionRango(--Primero[i],--Segundo[i]);
+        } 
+        
     }
     
     for(int i = Q-1;i>=0;--i){
-        ans[i] = num_comp;
-        Union(Eu[ind[i]],Ev[ind[i]]);
+        ans[i]=0;
+        
+        for(int j=0; j<N; j++){
+            if(j==find(j)){
+                ans[i]++;
+            }
+        }
+        unionRango(--Primero[numHilo[i]],--Segundo[numHilo[i]]);
+        
     }
     
-    printf("%d",ans[0]);
-    for(int i = 1;i<Q;++i) printf(" %d",ans[i]);
-    printf("\n");
+    for(int i = 0;i<Q;++i){
+        cout<<ans[i]<<" ";
+    }
     
     return 0;
 }
