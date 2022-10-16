@@ -44,9 +44,9 @@
    <div align="left">  
  
   ## Capítulo 4: Teoría de Grafos    
-    ### Tema 1: Algoritmo de Kruskal  
-     [Definición]()  
+  ### Tema 1: Algoritmo de Kruskal  
+   [Definición]()  
    [Problemas]()  
-        ### Tema 2: Algoritmo PRIM
-     [Definición]()  
+  ### Tema 2: Algoritmo PRIM  
+   [Definición]()  
    [Problemas]()  
