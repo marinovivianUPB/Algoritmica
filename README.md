@@ -32,12 +32,21 @@
  
   ## Capítulo 2: Backtracking  
    [Definición](https://github.com/marinovivianUPB/Algoritmica/tree/main/Backtracking)  
-   [Problemas](https://github.com/marinovivianUPB/Algoritmica/tree/main/Backtracking/Problemas)
+   [Problemas](https://github.com/marinovivianUPB/Algoritmica/tree/main/Backtracking/Problemas)  
 
  <div align="right">  
  
   ## Capítulo 3: Dynamic Programming  
   
+     [Definición](https://github.com/marinovivianUPB/Algoritmica/tree/main/Backtracking)  
+   [Problemas](https://github.com/marinovivianUPB/Algoritmica/tree/main/Backtracking/Problemas)  
+  
    <div align="left">  
  
   ## Capítulo 4: Teoría de Grafos    
+    ### Tema 1: Algoritmo de Kruskal  
+     [Definición]()  
+   [Problemas]()  
+        ### Tema 2: Algoritmo PRIM
+     [Definición]()  
+   [Problemas]()  
