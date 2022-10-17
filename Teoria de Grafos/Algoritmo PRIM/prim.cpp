@@ -29,9 +29,6 @@ void printMst(){
 }
 
 void findMST(){
-
-    input;
-	
 	vector<int> peso(numNodos, INT_MAX);
 	vector<bool> setMST(numNodos, false);
 
