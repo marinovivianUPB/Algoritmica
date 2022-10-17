@@ -48,5 +48,6 @@
    [Definición]()  
    [Problemas]()  
   ### Tema 2: Algoritmo PRIM  
-   [Definición]()  
+   [Definición]() 
+   [Código]()  
    [Problemas]()  
