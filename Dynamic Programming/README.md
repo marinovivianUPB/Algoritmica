@@ -21,6 +21,6 @@
   * [Subsecuencia Incremental Más Larga]()  
   
   ## Bibliografía  
-
+  * CS Dojo. (2017). [What Is Dynamic Programming and How To Use It](https://www.youtube.com/watch?v=vYquumk4nWw). YouTube.  
+  * Kafkes, A. (2017). [Demystifying Dynamic Programming](https://www.freecodecamp.org/news/demystifying-dynamic-programming-3efafb8d4296/#:~:text=Dynamic%20Programming%20Defined,example%20of%20a%20sub%2Dproblem.). freeCodeCamp.  
   * Reducible. (2020). [5 Simple Steps for Solving Dynamic Programming Problems](https://www.youtube.com/watch?v=aPQY__2H3tE). YouTube.  
-  * 
