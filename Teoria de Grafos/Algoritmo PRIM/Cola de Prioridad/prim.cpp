@@ -12,7 +12,7 @@ int parentWeight[100000];
 int aristas;
 int numNodos;
 
-void Prim(int nodoInicial){
+void findMST(int nodoInicial){
     colaPrioridad.insert(make_pair(0, nodoInicial));
     memset(visitados, false, sizeof(visitados));
     while (!colaPrioridad.empty()){
@@ -73,7 +73,7 @@ int main(){
     int nodoInicial;
     cin>>nodoInicial;
     nodoInicial--;
-    Prim(nodoInicial);
+    findMST(nodoInicial);
     printMst();
     return 0;
 }
