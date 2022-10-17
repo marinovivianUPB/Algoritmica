@@ -49,5 +49,5 @@
    [Problemas]()  
   ### Tema 2: Algoritmo PRIM  
    [Definición]() 
-   [Código]()  
+   [Código](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Algoritmo%20PRIM/prim.cpp)  
    [Problemas]()  
