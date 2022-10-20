@@ -49,5 +49,6 @@
    [Problemas]()  
   ### Tema 2: Algoritmo PRIM  
    [Definición]()  
-   [Código](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Algoritmo%20PRIM/prim.cpp)  
+   [Código Cola de Prioridad](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Algoritmo%20PRIM/Cola%20de%20Prioridad/prim.cpp)  
+   [Código Sin Cola de Prioridad](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Algoritmo%20PRIM/Sin%20Cola%20de%20Prioridad/prim.cpp)
    [Problemas]()  
