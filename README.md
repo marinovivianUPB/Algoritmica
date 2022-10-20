@@ -5,6 +5,7 @@
  Vivian Marino Sánchez  
  UPB - Facultad de Ingeniería y Arquitectura - EDTI  
  Ingeniería de Sistemas Computacionales  
+ _El repositorio a continuación fue redactado con el propósito de reunir todo lo avanzado en la materia de Algoritmica 2, cursada entre los meses de Octubre y Noviembre del año 2022._  
 
  <div align="right">
   
