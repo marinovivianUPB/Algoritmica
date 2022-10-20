@@ -17,8 +17,8 @@
   ### [Problemas]()
   * [Subset Sum]()   
   * [Digit DP]()  
-  * [Búsqueda Binaria]()  
-  * [Subsecuencia Incremental Más Larga]()  
+  * [Búsqueda Binaria](https://github.com/marinovivianUPB/Algoritmica/edit/main/Dynamic%20Programming/Busqueda%20Binaria)  
+  * [Subsecuencia Incremental Más Larga](https://github.com/marinovivianUPB/Algoritmica/edit/main/Dynamic%20Programming/Busqueda%20Binaria/Problemas/LIS)  
   
   ## Bibliografía  
   * CS Dojo. (2017). [What Is Dynamic Programming and How To Use It](https://www.youtube.com/watch?v=vYquumk4nWw). YouTube.  
