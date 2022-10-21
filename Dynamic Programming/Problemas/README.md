@@ -11,3 +11,5 @@
    #### Contar cuántos números entre A y B, donde A y B son números naturales, cumplen con condiciones determinadas.  
  ### Longest Increasing Sequence  
    #### Dada una secuencia de números, encontrar la longitud de la subsecuencia incremental más larga posible. 
+   * [Con subsecuencia y longitud]()  
+   * [Solo longitud]()  
