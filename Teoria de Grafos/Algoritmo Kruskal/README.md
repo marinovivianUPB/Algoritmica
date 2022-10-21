@@ -26,12 +26,12 @@
   Al posicionar la sexta, tenemos que A y E no tienen un mismo superpadre, por lo tanto, los unimos con (A,E,9) de tal manera que C sea superpadre de E:  
   ![k5](https://imgur.com/QCmy8qU.png)  
   Al posicionar la última, tenemos que B y F tienen un mismo superpadre. No tomamos en cuenta la arista.
-  Así tenemos que el camino más corto en general es:  
-  A --3--> B
-  A --7--> C 
-  D --6--> C 
-  E --8--> F 
-  A --9--> E 
+  Así tenemos que los caminos más cortos en general son:  
+  A --3--> B  
+  A --7--> C   
+  D --6--> C  
+  E --8--> F  
+  A --9--> E  
   
    ### Código  
   * [Código](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Algoritmo%20Kruskal/kruskal/kruskal.cpp)  
