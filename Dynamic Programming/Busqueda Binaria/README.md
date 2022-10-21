@@ -21,11 +21,13 @@
  * inicio = 3 
  * final = 5  
  * medio = 4  
+  ![bin1](https://imgur.com/2t1eLT7.png)
  Como el objeto del medio es mayor a 4, final pasa a ser medio - 1.  
  Así tenemos:  
  * inicio = 3  
  * final = 3  
  * medio = 3  
+  ![bin2](https://imgur.com/cVm41c2.png)
  El algoritmo nos devuelve la posición 3, asumiendo que es allí donde se encuentra la respuesta correcta.  
  Como podemos observar, es en esa posición en que encontramos a 4.  
 
@@ -35,3 +37,6 @@
   ### [Problemas]()  
   * [Longitud de Subsecuencia Más Larga: Sin Subsecuencia]()  
   * Sopa de Letras  
+  
+  ## Bibliografía  
+  Programiz Staff. [Binary Search](https://www.programiz.com/dsa/binary-search). Programiz. 
