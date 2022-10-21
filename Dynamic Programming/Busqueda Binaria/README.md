@@ -35,7 +35,7 @@
   * []()  
   
   ### [Problemas]()  
-  * [Longitud de Subsecuencia Más Larga: Sin Subsecuencia]()  
+  * [Longitud de Subsecuencia Más Larga: Sin Subsecuencia](https://github.com/marinovivianUPB/Algoritmica/blob/main/Dynamic%20Programming/Busqueda%20Binaria/Problemas/LIS/Sin%20Subsecuencia/lis.cpp)  
   * Sopa de Letras  
   
   ## Bibliografía  
