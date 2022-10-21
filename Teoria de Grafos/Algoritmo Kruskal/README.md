@@ -12,7 +12,7 @@
  #### Ejemplo  
  
    ### Código  
-  * []()  
+  * [Código](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Algoritmo%20Kruskal/kruskal/kruskal.cpp)  
   
   ### Problemas  
   * Palabra Compuesta  
