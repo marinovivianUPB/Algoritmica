@@ -46,7 +46,5 @@
   * [Con Cola de Prioridad](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Algoritmo%20PRIM/Cola%20de%20Prioridad/prim.cpp)  
   
   ### Problemas
-  * Palabra Compuesta
-  * Sopa de Letras
-  ### Modificaciones 
-  * Suffix Trie
+  * Palabra Compuesta  
+  * Sopa de Letras  
