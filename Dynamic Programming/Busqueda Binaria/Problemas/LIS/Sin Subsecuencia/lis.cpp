@@ -64,9 +64,7 @@ int main() {
            cin>>secuencia[i];
         }
     }
-    cout<<subsecuenciaMasLarga()<<endl;
-    for(int i=1; i<subsecuencia.size(); i++){
-        cout<<subsecuencia[i]<<" ";
-    }
+    cout<<"La subsecuencia más larga es: "<<subsecuenciaMasLarga()<<endl;
     return 0;
 }
+
