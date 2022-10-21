@@ -38,7 +38,7 @@
    * Nuevamente, no añadimos ningún camino porque B y C ya fueron visitados.  
    ![prim6](https://imgur.com/kB4L6I4.png)  
    
-   
+   Así, tenemos todos los caminos más cortos del nodo B a todos los demás nodos.  
    
    
    ### Código
