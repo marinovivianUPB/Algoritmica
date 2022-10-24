@@ -48,3 +48,10 @@
   ### Problemas
   * Palabra Compuesta  
   * Sopa de Letras  
+  
+  ## Bibliografía  
+  * Algorithms for Competitive Programming. [Minimum spanning tree - Prim's algorithm](https://cp-algorithms.com/graph/mst_prim.html). Algorithms for Competitive Programming.  
+  * AlgoTre. [PRIM'S MINIMUM SPANNING TREE ALGORITHM IN C++](https://takeuforward.org/data-structure/minimum-spanning-tree-mst-using-prims-algo/). AlgoTree.org.  
+  * Take U Forward. (2021). [Minimum Spanning Tree – MST using Prim’s Algo](https://takeuforward.org/data-structure/minimum-spanning-tree-mst-using-prims-algo/). Take U Forward  
+  * Take U Forward. (2021). [Prim's Algorithm | C++ Code Implementation](https://www.youtube.com/watch?v=oNTsS8lGDHw). YouTube.  
+  * Waghmare, S. (2022). [Prim's Algorithm](https://www.scaler.com/topics/data-structures/prims-algorithm/). Scaler Topics.  
