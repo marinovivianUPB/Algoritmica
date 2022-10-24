@@ -25,8 +25,7 @@ void findMST(int nodoInicial){
                 int verticeVecino = grafo[verticeActual][i].first;
                 int pesoVecino = grafo[verticeActual][i].second;
                 if(!visitados[verticeVecino]){
-                    if(parent[verticeVecino]==-1 || (pesoVecino<parentWeight[verticeVecino]
-                    && parentWeight[verticeVecino]!=-1)){
+                    if(parent[verticeVecino]==-1 || (pesoVecino<parentWeight[verticeVecino])){
                         parent[verticeVecino]=verticeActual;
                         parentWeight[verticeVecino]=pesoVecino;
                     }
@@ -69,7 +68,7 @@ int main(){
         grafo[b].push_back(make_pair(a,c));
     }
     memset(parent, -1, sizeof(parent));
-    memset(parent, -1, sizeof(parentWeight));
+    memset(parentWeight, -1, sizeof(parentWeight));
     int nodoInicial;
     cin>>nodoInicial;
     nodoInicial--;
