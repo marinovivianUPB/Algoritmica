@@ -6,6 +6,7 @@
   
  ### Subset Sum  
    #### Verificar si es posible obtener un número A a base de los números dentro de un arreglo dado.  
+   [Código](https://github.com/marinovivianUPB/Algoritmica/blob/main/Dynamic%20Programming/Problemas/Subset%20Sum/main.cpp)  
    
  ### Digit DP    
    #### Contar cuántos números entre A y B, donde A y B son números naturales, cumplen con condiciones determinadas.  
