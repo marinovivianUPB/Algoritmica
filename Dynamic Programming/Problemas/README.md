@@ -19,6 +19,6 @@
  ### Floyd Warshall  
    #### Dado un grafo, hallar la distancia mínima entre cada par de nodos existente.  
    [Código](https://github.com/marinovivianUPB/Algoritmica/edit/main/Dynamic%20Programming/Problemas/Floyd%20Warshall/main.cpp)  
-    ### Edit Distance  
+ ### Edit Distance  
    #### Dadas dos palabras, hallar la distancia de Levenshtein entre ellas, es decir, cuántas modificaciones deben realizarse para convertir una en la otra.  
    [Código](https://github.com/marinovivianUPB/Algoritmica/edit/main/Dynamic%20Programming/Problemas/Edit%20Distance/main.cpp)  
