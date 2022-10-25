@@ -46,8 +46,8 @@
  
   ## Capítulo 4: Teoría de Grafos    
   ### Tema 1: Algoritmo de Kruskal  
-   [Definición]()  
-   [Problemas]()  
+   [Definición](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Algoritmo%20Kruskal)  
+   [Problemas](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Algoritmo%20Kruskal/Problemas)  
   ### Tema 2: Algoritmo PRIM  
    [Definición](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Algoritmo%20PRIM)  
    [Código Cola de Prioridad](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Algoritmo%20PRIM/Cola%20de%20Prioridad/prim.cpp)  
