@@ -37,4 +37,5 @@
   * [Código](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Algoritmo%20Kruskal/kruskal/kruskal.cpp)  
   
 ## Bibliografía  
-
+ * Sambol, M. [Kruskal's algorithm in 2 minutes](https://www.youtube.com/watch?v=71UQH7Pr9kU). YouTube.  
+ * Tushar Roy - Coding Made Simple. [Kruskal's algorithm Minimum Spanning Tree Graph Algorithm](https://www.youtube.com/watch?v=fAuF0EuZVCk). YouTube.  
