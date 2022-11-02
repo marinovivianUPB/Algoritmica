@@ -112,7 +112,7 @@ double areaTriangulo(const Point &A, const Point &B, const Point &C) {
 <div align="center">  
 A+k<sub>1</sub>AB=C+k<sub>2</sub>CD  
 k<sub>1</sub>AB-k<sub>2</sub>CD=C-A  
-k<sub>1</sub>AB-k<sub>2</sub>CD=AC  //xCD  
+k<sub>1</sub>AB-k<sub>2</sub>CD=AC //xCD  
 k<sub>1</sub>ABxCD=ACxCD  
 k<sub>1</sub>=(ACxCD)/(ABxCD)  
 <div align="left">  
