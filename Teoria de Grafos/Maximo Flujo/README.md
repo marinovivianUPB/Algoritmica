@@ -38,7 +38,23 @@
   ![ed8](https://imgur.com/y7uoMRY.png)  
   
  ##### DFS - Ford Fulkerson  
-
+  
+  Visitaremos los primeros nodos que estén disponibles hasta llegar a T.  
+  Entonces, iremos por A, luego por D y llegaremos a T. Como la capacidad mínima del recorrido es 18, restaremos este valor a todas las aristas del camino. Sumaremos 18 al total de T. Entonces: total = 18.  
+  ![f0](https://imgur.com/p7MLRZV.png)  
+  El grafo se verá de la siguiente manera:  
+  ![f1](https://imgur.com/TBozJXa.png)  
+  El algoritmo intentará ir por A, pero el único camino de A está clausurado, entonces pasaremos directamente a B.  
+  ![f2](https://imgur.com/ToYLLl0.png)  
+  Ahora, iremos desde B hasta D para llegar a T. Como la capacidad mínima del recorrido es 2, restaremos este valor a todas las aristas del camino. Sumaremos 2 al total de T. Entonces: total = 20.  
+  ![f3](https://imgur.com/stDdNpi.png)  
+  El grafo se verá de la siguiente manera:  
+  ![f4](https://imgur.com/U03w777.png)  
+  Ahora, iremos desde B hasta E para llegar a T, evadiendo nodos que lleven a caminos clausurados. Como la capacidad mínima del recorrido es 10, restaremos este valor a todas las aristas del camino. Sumaremos 10 al total de T. Entonces: total = 30.  
+  ![f5](https://imgur.com/LLRgNC0.png)  
+  El grafo se verá de la siguiente manera:  
+  ![f6](https://imgur.com/CMzMq7e.png)  
+  Como todos los caminos a T han quedado clausurados: la máxima cantidad de agua que podemos tener en T es 30.  
    ### Código
   * [Código Ford Fulkerson](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Maximo%20Flujo/Ford%20Fulkerson/main.cpp)  
   * [Código Edmomds Karp](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Maximo%20Flujo/Edmonds%20Karp/main.cpp)  
