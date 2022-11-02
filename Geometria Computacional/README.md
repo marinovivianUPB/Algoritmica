@@ -22,8 +22,9 @@
         return sqrt(x*x+y*y);
     }
   </code>
-</pre>
+</pre>  
    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Es decir, un punto y un vector serán definidos por sus coordenadas correspondientes y ambos tendrán acceso a un ángulo y un módulo. Esto quiere decir que en geometría computacional podemos tratar a un punto como si en realidad fuera un vector.  
  #### Ejemplo
 
    ### Código
