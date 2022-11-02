@@ -96,8 +96,8 @@ double areaTriangulo(const Point &A, const Point &B, const Point &C) {
     <pre>
   <code>
   Point lineIntersection(const Point &A,const Point &B,const Point &C,const Point &D) {
-    return A+(B-A)*(cross(C-A,D-C)/cross(B-A,D-C));
-}
+     return A+(B-A)*(cross(C-A,D-C)/cross(B-A,D-C));
+  }
   </code>
   </pre>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A continuación veamos un problema simple: encontremos el punto de intersección entre dos rectas. Recordemos que:  
@@ -123,7 +123,9 @@ k<sub>1</sub>=(ACxCD)/(ABxCD)  <br>
   }
   </code>
   </pre>
-  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si un punto se encuentra en una recta, entonces:  
+   * No podrá formar un triángulo con ella, porque no se puede tener un triángulo con área 0.  
+   * No podrá ser más grande o más pequeño que ninguno de los dos extremos de la recta. Con esto queremos decir que sus coordenadas se encontrarán en un rango específico. Es decir: A.x||B.x<=P.x<=A.x||B.x && A.y||B.y<=P.y<=A.y||B.y  
     <pre>
   <code>
   </code>
