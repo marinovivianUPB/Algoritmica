@@ -110,13 +110,11 @@ double areaTriangulo(const Point &A, const Point &B, const Point &C) {
    Con esto queremos decir que podemos obtener cualquier punto de una recta si tenemos un punto inicial, un vector AB y un valor k<sub>1</sub> llamado parámetro.  
    En nuestro caso tenemos el vector y el punto inicial, por lo cual debemos encontrar el valor de k<sub>1</sub>. Como estamos buscando el punto de intersección entre dos rectas, sabemos que podemos obtener este punto de intersección a partir de cualquiera de las ecuaciones de las rectas. Así, las igualaremos:  
      <div align="center">  
-   A+k<sub>1</sub>AB=C+k<sub>2</sub>CD  
+      A+k<sub>1</sub>AB=C+k<sub>2</sub>CD  
       k<sub>1</sub>AB-k<sub>2</sub>CD=C-A  
       k<sub>1</sub>AB-k<sub>2</sub>CD=AC  //xCD  
       k<sub>1</sub>ABxCD=ACxCD  
       k<sub>1</sub>=(ACxCD)/(ABxCD)
-      
-      
   <div align="left">  
     <pre>
   <code>
