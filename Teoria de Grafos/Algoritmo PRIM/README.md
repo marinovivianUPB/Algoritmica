@@ -45,10 +45,6 @@
   * [Sin Cola de Prioridad](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Algoritmo%20PRIM/Sin%20Cola%20de%20Prioridad/prim.cpp)  
   * [Con Cola de Prioridad](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Algoritmo%20PRIM/Cola%20de%20Prioridad/prim.cpp)  
   
-  ### Problemas
-  * Palabra Compuesta  
-  * Sopa de Letras  
-  
   ## Bibliografía  
   * Algorithms for Competitive Programming. [Minimum spanning tree - Prim's algorithm](https://cp-algorithms.com/graph/mst_prim.html). Algorithms for Competitive Programming.  
   * AlgoTre. [PRIM'S MINIMUM SPANNING TREE ALGORITHM IN C++](https://takeuforward.org/data-structure/minimum-spanning-tree-mst-using-prims-algo/). AlgoTree.org.  
