@@ -116,6 +116,7 @@ k<sub>1</sub>AB-k<sub>2</sub>CD=AC //xCD  <br>
 k<sub>1</sub>ABxCD=ACxCD  <br>
 k<sub>1</sub>=(ACxCD)/(ABxCD)  <br>
 <div align="left">  
+ Entonces, k<sub>1</sub>=cross(C-A,D-C)/cross(B-A,D-C). Y así obtenemos:  A+(B-A)*(cross(C-A,D-C)/cross(B-A,D-C))  
     <pre>
   <code>
   </code>
