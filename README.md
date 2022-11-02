@@ -54,5 +54,5 @@
    [Código Sin Cola de Prioridad](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Algoritmo%20PRIM/Sin%20Cola%20de%20Prioridad/prim.cpp) 
 ### Tema 3: Máximo Flujo    
    [Definición](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Maximo%20Flujo)  
-   [Código Ford Fulkerson](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Maximo%20Flujo/)  
+   [Código Ford Fulkerson](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Maximo%20Flujo/Ford%20Fulkerson/main.cpp)  
    [Código Edmomds Karp](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Maximo%20Flujo/Edmonds%20Karp/main.cpp)  
