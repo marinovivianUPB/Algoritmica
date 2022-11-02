@@ -13,9 +13,30 @@
  
  Utilicemos el grafo siguiente:  
  
+  ![ej](https://imgur.com/iSH5C5G.png)  
+ 
  ##### BFS - Edmonds Karp  
  
-
+  En este caso, se visitarán todos los nodos vecinos del nodo actual. Entonces, visitaremos A, B y C primero.  
+  ![ed0](https://imgur.com/OQQhFTT.png)  
+  A continuación, visitamos D a partir de A y E a partir de B. 
+  ![ed1](https://imgur.com/qGApQhZ.png)  
+  Entonces, llegamos a T por medio de D. En el camino S->A->D->T, el valor mínimo es 18, entonces, restaremos 18 a todas las aristas del camino y sumaremos 18 al total de T. Entonces: total=18.  
+  ![ed2](https://imgur.com/oDAINpJ.png)  
+  Entonces, ahora la arista de A a D queda inhabilitada. Cuando iniciamos nuevamente la búsqueda, visitamos A, B y C primero, como en el anterior recorrido, pero como la arista A-D ya no puede usarse, visitaremos D y E por medio de B, y llegaremos a T pormedio de D. 
+  ![ed3](https://imgur.com/gjKspDO.png)  
+  Ahora, como la capacidad mínima es 2, restamos 2 a todas las aristas en el camino S->B->D->T y sumamos 2 al total de T. Entonces: total=20.
+  ![ed4](https://imgur.com/tiIaOhj.png)  
+  Ahora queda bloqueado un camino a T.  
+  Entonces, reiniciamos el recorrido. Nuevamente, visitamos A, B y C primero.   
+  ![ed5](https://imgur.com/njoDU6P.png)  
+  Ahora, visitaremos D y E por medio de B, como la última vez.  
+  ![ed6](https://imgur.com/OJEnJIO.png)  
+  Sin embargo, como el camino de D a T queda bloqueado, llegaremos a T por medio de E. Ya que la capacidad mínima del camino S->B->E->T es 10, restaremos 10 a todas las aristas del recorrido y sumaremos 10 al total de T. Entonces: total=30.  
+  ![ed7](https://imgur.com/SeH4TvE.png)  
+  Como podemos observar, todos los caminos que llevan a T han quedado clausurados. Entonces, la máxima cantidad de agua que podemos tener en T es 30.  
+  ![ed8](https://imgur.com/y7uoMRY.png)  
+  
  ##### DFS - Ford Fulkerson  
 
    ### Código
