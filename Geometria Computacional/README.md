@@ -11,7 +11,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para empezar, un punto y un vector, a pesar de ser dos objetos distintos, pueden ser representados de la misma manera en código:  
   <pre>
   <code>
-   Point(double a,double b) {
+    Point(double a,double b) {
         x = a;
         y = b;
     } 
@@ -28,7 +28,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A continuación codificaremos las operaciones básicas entre vectores:  
    <pre>
   <code>
-   Point operator +(const Point &a, const Point &b) {
+Point operator +(const Point &a, const Point &b) {
     return Point(a.x + b.x, a.y + b.y);
 }
 
@@ -41,7 +41,7 @@ Point operator -(const Point &a, const Point &b) {
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La adición y la substracción son simples. Simplemente la aplicaremos entre las coordenadas x y y por separado para obtener un nuevo punto/vector.  
   <pre>
   <code>
-  Point operator *(const Point &a, double k) {
+Point operator *(const Point &a, double k) {
     return Point(a.x*k,a.y*k); 
 }
 
@@ -53,15 +53,15 @@ Point operator /(const Point &a, double k) {
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La multiplicación y división solamente pueden realizarse entre un punto y un escalar, es decir, entre un punto y un número entero. Nuevamente, esto nos devolverá un nuevo punto/vector.  
   <pre>
   <code>
-  Point ort()   { 
+Point ort()   { 
   return Point(-y, x); 
-  }
-      Point unit() {
-        double modulo = mod();
-        return Point(x/modulo, y/modulo);
-    }
+}
+Point unit() {
+    double modulo = mod();
+    return Point(x/modulo, y/modulo);
+} 
     
-    double dot(const Point &A, const Point &B) {
+double dot(const Point &A, const Point &B) {
     return A.x * B.x + A.y * B.y; 
 }
 
@@ -81,15 +81,12 @@ double dist(const Point &A, const Point &B) {
   * El método dist() se refiere a encontrar la distnacia entre dos puntos. Esta distancia estará definida por el módulo del vector que se forma con los dos puntos.  
   <pre>
   <code>
-  double areaP(const Point &V, const Point &U) {
+double areaP(const Point &V, const Point &U) {
     return abs(cross(V,U));
 } 
-
 double area(const Point &A, const Point &B, const Point &C) {
     return cross(B - A, C - A); // 1
 }
-
-
 double areaTriangulo(const Point &A, const Point &B, const Point &C) {
     return abs(area(A,B,C))/2.; 
 }
@@ -119,6 +116,11 @@ k<sub>1</sub>=(ACxCD)/(ABxCD)  <br>
  Entonces, k<sub>1</sub>=cross(C-A,D-C)/cross(B-A,D-C). Y así obtenemos:  A+(B-A)*(cross(C-A,D-C)/cross(B-A,D-C))  
     <pre>
   <code>
+  bool onSegment(const Point &A, const Point&B, const Point &P) {
+    return areaTriangulo(A,B,P) == 0 && 
+        (P.x >= min(A.x,B.x) && P.x <= max(A.x,B.x)) && 
+        (P.y >= min(A.y,B.y) && P.y <= max(A.y,B.y));
+  }
   </code>
   </pre>
   
