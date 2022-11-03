@@ -31,12 +31,8 @@
  El algoritmo nos devuelve la posición 3, asumiendo que es allí donde se encuentra la respuesta correcta.  
  Como podemos observar, es en esa posición en que encontramos a 4.  
 
-   ### Código
-  * []()  
-  
   ### [Problemas]()  
   * [Longitud de Subsecuencia Más Larga: Sin Subsecuencia](https://github.com/marinovivianUPB/Algoritmica/blob/main/Dynamic%20Programming/Busqueda%20Binaria/Problemas/LIS/Sin%20Subsecuencia/lis.cpp)  
-  * Sopa de Letras  
   
   ## Bibliografía  
   Programiz Staff. [Binary Search](https://www.programiz.com/dsa/binary-search). Programiz. 
