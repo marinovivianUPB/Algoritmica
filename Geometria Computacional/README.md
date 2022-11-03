@@ -198,9 +198,37 @@ bool intersectsSegment(const Point &A,const Point &B,const Point &C,const Point 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para calcular el área de un polígono basta con partir de un punto cualquiera y calcular las rectas que lo llevan a los demás puntos. Así, dividimos el polígono en múltiples triángulos. Entonces, podemos aplicar la operacion areaTriangulo() o podemos aplicar area() y dividr el total en dos cuando ya hayamos obtenido la suma de las áreas.   
     ![geo1](https://imgur.com/7sptQUC.png)  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entonces, para un punto V<sub>0</sub>, realizaremos la operación area(V<sub>0</sub>,V<sub>i</sub>,V<sub>i+1</sub>) y sumaremos el resultado al área total hasta que i=n-1, donde n es el número de puntos que componen el polígono.  
-
-  #### Ejemplo
-
+  <pre>
+  <code>
+  vector<Point> convexHull(vector<Point> &points) {
+    sort(points.begin(),points.end());
+    int k = 0;
+    Point hulls[points.size()+100];
+    
+    for(int i = 0; i<points.size();i++){
+        while(k>=2 && area(hulls[k-2],hulls[k-1],points[i])<=0) {
+            k--; // stack.pop();
+        }
+        hulls[k++] = points[i];
+    }
+    
+    for(int i = points.size()-2, t = k;i>=0; i--) {
+        while( k > t && area(hulls[k-2],hulls[k-1],points[i])<= 0){
+            k--;
+        }
+        hulls[k++] = points[i];
+    }
+    
+    return vector<Point> (hulls,hulls+k-1);
+}
+  </code>
+  </pre>
+  
    ### Código
   * []()  
 
+## Bibliografía  
+A, A. (s. f.). [Scalar Product of Vectors](http://hyperphysics.phy-astr.gsu.edu/hbase/vsca.html). HyperPhysics.  
+Easy Math. (2017). [10. Unit vectors, what are they and how to calculate them? With graphic | vector calculus](https://www.youtube.com/watch?v=cfe-IS-gNoU). YouTube.  
+Lambers, J. (2009-2010). [Equations of Lines](https://www.math.usm.edu/lambers/mat169/fall09/lecture25.pdf). The University of Southern Mississippi: School of Mathematics and Natural Sciences.   
+Math's Fun. (s. f.). [Cross Product](https://www.mathsisfun.com/algebra/vectors-cross-product.html). Rod Pierce.  
