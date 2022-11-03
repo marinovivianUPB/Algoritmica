@@ -181,7 +181,7 @@ bool intersectsSegment(const Point &A,const Point &B,const Point &C,const Point 
   </code>
   </pre>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definimos un polígono convexo como un polígono cuyos vértices no tienen un ángulo mayor o igual a 180º. Podemos también decir que si múltiples rectas dividieran el polígono, ellas solo intersectarían con dos puntos. Una última manera de definir un polígono convexo es decir que sus puntas apuntan hacia fuera de la figura y no dentro de ella.  
-  ![geo0](https://imgur.com/undefined.png)
+  ![geo0](https://imgur.com/eRMaU6P.png)
       <pre>
   <code>
   </code>
