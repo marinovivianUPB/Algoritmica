@@ -244,7 +244,7 @@ bool intersectsSegment(const Point &A,const Point &B,const Point &C,const Point 
  </pre>
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si queremos saber si un punto se encuentra dentro de un polígono convexo tan solo basta con verificar que las áreas que forma el punto con todos los pares de vértices [V<sub>i</sub>,V<sub>i+1</sub>] tienen el mismo signo. Este algoritmo tiene una complejidad de O(N).  
    ### Código
-  * []()  
+  * [Código](https://github.com/marinovivianUPB/Algoritmica/blob/main/Geometria%20Computacional/main.cpp)  
 
 ## Bibliografía  
 A, A. (s. f.). [Scalar Product of Vectors](http://hyperphysics.phy-astr.gsu.edu/hbase/vsca.html). HyperPhysics.  
