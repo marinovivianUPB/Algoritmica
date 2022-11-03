@@ -59,3 +59,9 @@
   * [Código Ford Fulkerson](https://github.com/marinovivianUPB/Algoritmica/tree/main/Teoria%20de%20Grafos/Maximo%20Flujo/Ford%20Fulkerson/main.cpp)  
   * [Código Edmomds Karp](https://github.com/marinovivianUPB/Algoritmica/blob/main/Teoria%20de%20Grafos/Maximo%20Flujo/Edmonds%20Karp/main.cpp)  
   
+## Bibliografía  
+Algorithms for Competitive Programming. [Maximum flow - Ford-Fulkerson and Edmonds-Karp](https://cp-algorithms.com/graph/edmonds_karp.html). Algorithms for Competitive Programming.  
+Downey, T. [finding max flow using the ford-fulkerson algorithm and matthew mcconaughey](https://downey.io/blog/max-flow-ford-fulkerson-algorithm-explanation/). Downey.  
+HackerEarth. [Maximum flow](https://www.hackerearth.com/practice/algorithms/graphs/maximum-flow/tutorial/). HackerEarth.  
+WilliamFiset. [Max Flow Ford Fulkerson | Network Flow | Graph Theory](https://www.youtube.com/watch?v=LdOnanfc5TM). YouTube.  
+Yadav, P. [Ford-Fulkerson Algorithm for Maximum Flow Problem](https://www.scaler.com/topics/data-structures/ford-fulkerson-algorithm-for-maximum-flow-problem/). Scaler Topics.  
