@@ -223,7 +223,26 @@ bool intersectsSegment(const Point &A,const Point &B,const Point &C,const Point 
 }
   </code>
   </pre>
-  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teniendo un conjunto de puntos P, queremos saber qué puntos forman el polígono convexo que engloba a todos los demás. Para esto deberemos ir tomando puntos de menor a mayor (lo que implica un ordenamiento de complejidad O(NlogN)) y empezaremos a evaluar si es que el rote de un vértice V<sub>k-1</sub> a un vértice V<sub>i</sub> con el vértice V<sub>k-2</sub> como pivote es positivo, donde k es el número de puntos que ya han sido posicionados en el polígono e i es el punto que está siendo evaluado. Si es que el rote no fuera positivo, se reduciría k para ver qué vértice debe ser reemplazado. Este proceso se repetirá para la parte superior del polígono, donde simplemente emplearemos una variable t para asegurarnos que estamos armando la parte correcta y no se tienene vértices repetidos.  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Debido al ordeamiento de los puntos este algoritmo es de complejidad O(NlogN), porque los bucles que le siguen al ordenamiento son de complejidad O(N) y no tienen efecto en la complejidad final.  
+ <pre>
+ <code>
+ bool pointInConvex(const vector<Point> &polign, const Point &P) {
+    int nroPoints = polign.size();
+    int areasPositive =  0, areasNegative = 0;
+    for(int i = 0; i < nroPoints ;i++) {
+        double areaPoints = area(P,polign[i],polign[(i+1)%nroPoints]);
+        if(areaPoints>0) {
+           areasPositive++;
+        } else if(areaPoints<0) {
+           areasNegative++;
+        }
+    }
+    return areasPositive == 0 || areasNegative == 0;
+}
+ </code>
+ </pre>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si queremos saber si un punto se encuentra dentro de un polígono convexo tan solo basta con verificar que las áreas que forma el punto con todos los pares de vértices [V<sub>i</sub>,V<sub>i+1</sub>] tienen el mismo signo. Este algoritmo tiene una complejidad de O(N).  
    ### Código
   * []()  
 
