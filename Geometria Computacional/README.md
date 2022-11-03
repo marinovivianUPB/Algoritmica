@@ -126,7 +126,63 @@ k<sub>1</sub>=(ACxCD)/(ABxCD)  <br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si un punto se encuentra en una recta, entonces:  
    * No podrá formar un triángulo con ella, porque no se puede tener un triángulo con área 0.  
    * No podrá ser más grande o más pequeño que ninguno de los dos extremos de la recta. Con esto queremos decir que sus coordenadas se encontrarán en un rango específico. Es decir: A.x||B.x<=P.x<=A.x||B.x && A.y||B.y<=P.y<=A.y||B.y  
-    <pre>
+  <pre>
+  <code>
+bool intersectsSegment(const Point &A,const Point &B,const Point &C,const Point &D) {
+    double A1 = area(C,D,A); 
+    double A2 = area(C,D,B);   
+    double A3 = area(A,B,C);   
+    double A4 = area(A,B,D);   
+
+    if(((A1 > 0 && A2 < 0) || (A1<0 && A2>0)) && 
+        ((A3 > 0 && A4 < 0) || (A3<0 && A4>0)))  {
+            return true;
+    }
+
+    if(A1 == 0 && onSegment(C,D,A)) {
+        return true;
+    }
+
+    if(A2 == 0 && onSegment(C,D,B)) {
+        return true;
+    }
+
+    if(A3 == 0 && onSegment(A,B,C)) {
+        return true;
+    }
+
+    if(A4 == 0 && onSegment(A,B,D)) {
+        return true;
+    }
+
+    return false;
+}
+  </code>
+  </pre>  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para que dos rectas intersecten:  
+  * Los puntos que las componen estarán en lados opuestos. Con esto queremos decir que los cuatro extremos se encontrarán alrededor de un punto.  
+  * O, algún extremo de alguna de las rectas estará dentro de la otra.  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Así definimos que para que los cuatro extremos estén en lados opuestos, usando una recta como pivote, los productos cruz entre esta recta y los extremos de la otra deben tener signos opuestos. O, en todo caso, el área entre una recta y un extremo debe ser 0 y el extremo debe encontrarse dentro de la recta.  
+  <pre>
+  <code>
+  bool isConvex(const vector<Point> &polign) {
+    int nroPoints = polign.size();    // 1
+    int areasPositive =  0, areasNegative = 0; // 2
+    for(int i = 0; i < nroPoints ;i++) {  // n
+        double areaPoints = area(polign[i],polign[(i+1)%nroPoints],polign[(i+2)%nroPoints]);  // 3
+        if(areaPoints>0) {  // 3
+           areasPositive++; // 2
+        } else if(areaPoints<0) {
+           areasNegative++; // 2
+        }
+    }
+    return areasPositive == 0 || areasNegative == 0; // 3 
+}
+  </code>
+  </pre>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definimos un polígono convexo como un polígono cuyos vértices no tienen un ángulo mayor o igual a 180º. Podemos también decir que si múltiples rectas dividieran el polígono, ellas solo intersectarían con dos puntos. Una última manera de definir un polígono convexo es decir que sus puntas apuntan hacia fuera de la figura y no dentro de ella.  
+  ![geo0](https://imgur.com/undefined.png)
+      <pre>
   <code>
   </code>
   </pre>
