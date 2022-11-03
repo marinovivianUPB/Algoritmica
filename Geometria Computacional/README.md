@@ -104,8 +104,8 @@ double areaTriangulo(const Point &A, const Point &B, const Point &C) {
   <div align="center">  
    P(x,y)= A+k<sub>1</sub>AB
   <div align="left">  
-   Con esto queremos decir que podemos obtener cualquier punto de una recta si tenemos un punto inicial, un vector AB y un valor k<sub>1</sub> llamado parámetro.  
-   En nuestro caso tenemos el vector y el punto inicial, por lo cual debemos encontrar el valor de k<sub>1</sub>. Como estamos buscando el punto de intersección entre dos rectas, sabemos que podemos obtener este punto de intersección a partir de cualquiera de las ecuaciones de las rectas. Así, las igualaremos:  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Con esto queremos decir que podemos obtener cualquier punto de una recta si tenemos un punto inicial, un vector AB y un valor k<sub>1</sub> llamado parámetro.  
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En nuestro caso tenemos el vector y el punto inicial, por lo cual debemos encontrar el valor de k<sub>1</sub>. Como estamos buscando el punto de intersección entre dos rectas, sabemos que podemos obtener este punto de intersección a partir de cualquiera de las ecuaciones de las rectas. Así, las igualaremos:  
 <div align="center">  
 A+k<sub>1</sub>AB=C+k<sub>2</sub>CD <br> 
 k<sub>1</sub>AB-k<sub>2</sub>CD=C-A  <br>
@@ -180,12 +180,25 @@ bool intersectsSegment(const Point &A,const Point &B,const Point &C,const Point 
 }
   </code>
   </pre>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definimos un polígono convexo como un polígono cuyos vértices no tienen un ángulo mayor o igual a 180º. Podemos también decir que si múltiples rectas dividieran el polígono, ellas solo intersectarían con dos puntos. Una última manera de definir un polígono convexo es decir que sus puntas apuntan hacia fuera de la figura y no dentro de ella.  
-  ![geo0](https://imgur.com/eRMaU6P.png)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Definimos un polígono convexo como un polígono cuyos vértices no tienen un ángulo mayor o igual a 180º. Podemos también decir que si múltiples rectas dividieran el polígono, ellas solo intersectarían con dos puntos. Una última manera común de definir un polígono convexo es decir que sus puntas apuntan hacia fuera de la figura y no dentro de ella.  
+  ![geo0](https://imgur.com/eRMaU6P.png)  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En geometría computacional definimos un polígono convexo como aquel polígono cuyos sentidos de giro tienen el mismo signo. La operación que nos indica el giro es cross(), pero la operación que nos devuelve esta respuesta cuando especificamos tres puntos es area(). Así, para cada vértice del polígno V<sub>i</sub>, realizaremos la operación: area(V<sub>i</sub>,V<sub>i+1</sub>V<sub>i+2</sub>). Si el resultado es positivo, aumentará el contador positivo, caso contrario aumentará el contador negativo. Al final del método devolveremos si alguno de los contadores se mantuvo en 0.  
       <pre>
   <code>
+  double areaPoligono(const vector<Point> &poligono) {
+    int nroPoints = poligono.size(); 
+    double areaTotal = 0; 
+    for(int i = 1; i < nroPoints - 1; i++) {
+        areaTotal += area(poligono[0],poligono[i],poligono[i+1]); 
+    }
+    return abs(areaTotal/2);
+}
   </code>
   </pre>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para calcular el área de un polígono basta con partir de un punto cualquiera y calcular las rectas que lo llevan a los demás puntos. Así, dividimos el polígono en múltiples triángulos. Entonces, podemos aplicar la operacion areaTriangulo() o podemos aplicar area() y dividr el total en dos cuando ya hayamos obtenido la suma de las áreas. 
+    ![geo1](https://imgur.com/7sptQUC.png)  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entonces, para un punto V<sub>0</sub>, realizaremos la operación area(V<sub>0</sub>,V<sub>i</sub>,V<sub>i+1</sub>) y sumaremos el resultado al área total hasta que i=n-1, donde n es el número de puntos que componen el polígono.  
+
   #### Ejemplo
 
    ### Código
