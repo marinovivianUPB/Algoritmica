@@ -11,9 +11,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cabe remarcar que existen dos tipos de algoritmos DP: los Bottom Up y los Top Down. Se diferencian en que con Bottom Up partimos del sub-problema más pequeño para hallar la solución al problema original, mientras que con Top Down iniciamos con el problema original y lo vamos diviendo en sub-problemas más pequeños hasta hallar un caso base.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los pasos se describen a sí mismos con sus títulos. Al visualizar un problema, lo graficamos para entender cómo calculamos la solución. Para identificar un sub-problema, simplemente analizamos el gráfico y reconocemos los distintos caminos que podemos tomar. Para encontrar la relación entre subproblemas, deberemos ver cómo las soluciones se relacionan entre ellas. Por último, al implementar la solución transformaremos nuestro análisis en código. Para entender mejor este proceso, a continuación un ejemplo:  
 
- #### Ejemplo  
-
-  
   ### [Problemas](https://github.com/marinovivianUPB/Algoritmica/blob/main/Dynamic%20Programming/Problemas)
   * [Subset Sum](https://github.com/marinovivianUPB/Algoritmica/blob/main/Dynamic%20Programming/Problemas/Subset%20Sum/main.cpp)   
   * [Digit DP](https://github.com/marinovivianUPB/Algoritmica/blob/main/Dynamic%20Programming/Problemas/digitDP.cpp)  
