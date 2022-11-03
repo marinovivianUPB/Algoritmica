@@ -14,8 +14,8 @@
  #### Ejemplo  
 
   
-  ### [Problemas]()
-  * [Subset Sum]()   
+  ### [Problemas](https://github.com/marinovivianUPB/Algoritmica/blob/main/Dynamic%20Programming/Problemas)
+  * [Subset Sum](https://github.com/marinovivianUPB/Algoritmica/blob/main/Dynamic%20Programming/Problemas/Subset%20Sum/main.cpp)   
   * [Digit DP](https://github.com/marinovivianUPB/Algoritmica/blob/main/Dynamic%20Programming/Problemas/digitDP.cpp)  
   * [Búsqueda Binaria](https://github.com/marinovivianUPB/Algoritmica/edit/main/Dynamic%20Programming/Busqueda%20Binaria)  
   * [Subsecuencia Incremental Más Larga](https://github.com/marinovivianUPB/Algoritmica/blob/main/Dynamic%20Programming/Busqueda%20Binaria/Problemas/LIS/Con%20Subsecuencia/lis.cpp)  
