@@ -195,7 +195,7 @@ bool intersectsSegment(const Point &A,const Point &B,const Point &C,const Point 
 }
   </code>
   </pre>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para calcular el área de un polígono basta con partir de un punto cualquiera y calcular las rectas que lo llevan a los demás puntos. Así, dividimos el polígono en múltiples triángulos. Entonces, podemos aplicar la operacion areaTriangulo() o podemos aplicar area() y dividr el total en dos cuando ya hayamos obtenido la suma de las áreas. 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para calcular el área de un polígono basta con partir de un punto cualquiera y calcular las rectas que lo llevan a los demás puntos. Así, dividimos el polígono en múltiples triángulos. Entonces, podemos aplicar la operacion areaTriangulo() o podemos aplicar area() y dividr el total en dos cuando ya hayamos obtenido la suma de las áreas.   
     ![geo1](https://imgur.com/7sptQUC.png)  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entonces, para un punto V<sub>0</sub>, realizaremos la operación area(V<sub>0</sub>,V<sub>i</sub>,V<sub>i+1</sub>) y sumaremos el resultado al área total hasta que i=n-1, donde n es el número de puntos que componen el polígono.  
 
